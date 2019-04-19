@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<title>GOOD TV-首頁</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0, minimum-scale=1.0, user-scalable=1" />
+<meta charset="utf-8" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="zh-tw" >
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >  
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0" />
+<meta http-equiv="pragma" content="no-cache"> 
+<meta http-equiv="expires" content="0">
+
+<meta name="designer" content="GOODTV" >
+<meta name="description" content="GOOD TV好消息電視台,
+神給我們的異象是製作符合聖經真理的優質節目,
+透過媒體平台傳播上帝大愛在全球華人中間,
+引領認識耶穌基督救恩並造就門徒成就福音傳到地極的大使命" >
+
+<!--social share meta tag -->
+<!-- og -->
+<meta property="og:title" 	     content="GOOD TV-首頁" />
+<meta property="og:type"  	     content="website" /> 
+<meta property="og:locale"  	 content="zh_TW" /> 
+<meta property="og:site_name"    content="GOOD TV好消息電視台" />
+<meta property="og:url"			 content="https://www-origin.haoxiaoxidianshi.com/" />
+<meta property="og:image" 	     content="https://www.goodtv.tv/images/logo_large.jpg" >
+<meta property="og:image:width"  content="720" />
+<meta property="og:image:height" content="540" />
+
+<meta property="fb:app_id" 	     content="127054537457524" />
+<!--<meta property="fb:admins"       content="1580660741" />-->
+<meta property="og:description"  content="GOOD TV好消息電視台,
+神給我們的異象是製作符合聖經真理的優質節目,
+透過媒體平台傳播上帝大愛在全球華人中間,
+引領認識耶穌基督救恩並造就門徒成就福音傳到地極的大使命
+節目表7日回看 https://www.goodtv.tv/schedule/ 
+隨選視頻 https://www.goodtv.tv/program/"/>
+
+
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" type="image/png" href="/images/icon/home_icon.png"><!-- iPhone -->
+<link rel="icon" sizes="192x192" href="/images/icon/home_icon.png">
+<link rel="shortcut icon" href="/images/icon.ico" type="image/x-icon" />
+<link href="/css_js/home/index.css?v=1555703821" media="screen" rel="stylesheet" type="text/css" >
+
+<!--
+<link rel="stylesheet" href="/plugin/jquery_copy_from_cdn/jquery-ui.css" />
+<script src="/plugin/jquery_copy_from_cdn/jquery.min.js"></script>
+<script src="/plugin/jquery_copy_from_cdn/jquery-ui.min.js"></script>
+<script src="/plugin/jquery/jquery.mobile.custom.min.js"></script>
+-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="/plugin/jquery/jquery.mobile.swipe.only.min.js"></script>
+
+<script type="text/javascript" src="/css_js/home/index.js?v=1555703821"></script>
+
+<link  href="/plugin/videojs/video-js.min.css" rel="stylesheet">
+<script src="/plugin/videojs/video.min.js"></script>
+<script src="/plugin/videojs/videojs-flash.js"></script><!-- video.js default there is no flash support-->
+<script src="/plugin/videojs/videojs-contrib-hls.min.js"></script>
+<!--<script src="/plugin/videojs/videojs-contrib-quality-levels.min.js"></script>-->
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71303011-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-71303011-1');
+</script>
+</head>
+<body>
+<link rel="stylesheet" href="/css_js/layout_rwd/index.css?v=1555703821" />
+<script type="text/javascript" src="/css_js/layout_rwd/index.js?v=1555703821"></script>
+<script src="/plugin/translate/langConvert.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71303011-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-71303011-1');
+</script>
+
+<!--FB plugin script -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.10&appId=127054537457524";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+	<div class="header_frame" >
+
+		<table class="header_table"><!-- desktop header -->
+			<tr>
+				<td>	
+					<a href="/">
+						<img src="/images/GoodTV_logo2.png?v=1555703821" class="goodtv_logo" >
+					</a>
+				</td>
+				<td   name="live">
+					<a href="/live/" name="live" >電視頻道</a>	
+				</td>
+
+				<td name="program">
+					<a class="" href="/program/" name="program" >隨選節目</a>
+				</td>
+				
+				<td name="schedule">
+					<a class="" href="/schedule/" name="schedule" >節目表</a>
+				</td>
+				
+			
+				<td>
+					<a class="" href="http://goodtvnews.goodtv.tv/goodtvnews/" target="_blank" >
+						好消息新聞
+					</a>
+				</td>
+				
+				<td>
+					<a class="" href="http://blog.goodtv.tv"  target="_blank" >
+						好消息講台
+					</a>
+				</td>
+				
+				<td>
+					<a class="" href="http://family.goodtv.tv/family/"  target="_blank" >
+						家庭好消息
+					</a>
+				</td>
+			
+				<td>
+					<!--
+					<a class="header_donate header_donate1"  href="https://i-donate.goodtv.tv/Online/" >
+						支持好消息
+					</a></div>-->
+					
+						<div class="header_donate_frame" >
+							<a class="header_donate header_donate1"  href="https://i-donate.goodtv.tv/Online/" >
+								支持好消息
+							</a>
+							<a class="header_donate header_donate2"  href="https://i-donate.goodtv.tv/Online/DonateEnglish.aspx" >
+								Donation
+							</a>
+						</div>
+					
+				</td>
+			
+				<td >
+					<img src="/images/icon/search_new.png" class="header_search_icon header_search_visible" />
+					
+					<div class="header_search_frame" hidden >
+						
+						<form action="/search/" method="GET">
+							<input type="text" class="header_search_input" placeholder="" name="q">	
+								
+						</form>
+					</div>
+				</td>
+				<td>
+					<a id="translate_tc" class="translate_link" to="big5" >繁體</a>
+					<span style='font-size:9pt;font-weight:600;'>/</span>
+					<a id="translate_sc" class="translate_link" to="gb" >简体</a>
+	
+				</td>
+				
+				
+				
+				
+			</tr>
+		</table><!-- desktop header -->
+
+
+		<div class="rwd_header">
+			<img src="/images/menu/topnav.png" class="nav_menu_but rwd_header" hidden>
+			
+			<a href="/" class="logo_m_href" hidden>
+				<img src="/images/GoodTV_logo2.png" class="logo_m rwd_header"  >
+			</a>
+			
+			<img src="/images/search.png" class="search2 rwd_header" hidden >
+		</div>
+		<div class="search_form2" hidden>
+			<form action="/search/" method="GET" target="" >
+				<input type="text" name="q" placeholder="請輸入主題 節目 牧師 講員等關鍵字" >
+			</form>
+		</div>
+		
+		
+		
+		<div class="nav_menu_frame" hidden>
+			
+			<ul hidden>
+				<li>
+					<a href="/">
+						<img src="/images/GoodTV_logo2.png" class="logo" width="90" >
+					</a>
+				</li>
+				<li data-icon="home">
+					<a href="/" >首頁</a>
+				</li>
+				<li data-icon="home">
+					<a href="/live/" >電視頻道</a>
+				</li>
+				<li data-icon="video">
+					<a href="/program/" >隨選節目</a>
+				</li>
+				<li data-icon="" >
+					<a href="http://goodtvnews.goodtv.tv/goodtvnews/">好消息新聞</a>
+				</li>
+				<li data-icon="" >
+					<a href="http://blog.goodtv.tv">好消息講台</a>
+				</li>
+				<li>
+					<a href="http://family.goodtv.tv/family/">家庭好消息</a>
+				</li>
+				<li data-icon="calendar">
+					<a href="/schedule/">節目表7天回看</a>
+				</li>
+				<li>
+					<a href="/daily/book/intouch/tw">生命的觸動</a>
+				</li>
+				<li>
+					<a href="/daily/book/thewordforyoutoday/tw/">得力的一天</a>
+				</li>
+				<li>
+					<a href="/magazine/">好消息月刊</a>
+				</li>
+				<li>
+					<a href="/donate/online/">支持好消息</a>
+				</li>
+				
+				<li>
+					<a href="/donate/global/">DONATION</a>
+				</li>
+				
+				
+				<li data-icon="mail">
+					<a href="/service/">線上客服</a>
+				</li>
+				
+				<li >
+					<a href="https://w2.goodtv.tv/library/youth/">
+					<span>教材下載</span>-少年體驗隊</a>
+				</li>
+				
+				<li >
+					<a href="https://w2.goodtv.tv/library/love/">
+					<span>教材下載</span>-戀愛講義</a>
+				</li>
+				
+				
+				
+				<li data-icon="shop">
+					<a href="http://m.pcstore.com.tw/goodtvstore">網路書房</a>
+				</li>
+			
+				<li data-icon="star">
+					<a href="http://www.goodtv.tv/app/">GOOD TV APP</a>
+				</li>
+				<li>
+					<a href="/how_to_watch/">如何收看</a>
+				</li>
+				<li data-icon="info">
+					<a href="/about/">關於好消息</a>
+				</li>
+				<li data-icon="user">
+					<a 
+					href="http://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=484a436b3c36402134323c1d1d1d1d5f2443a363189j56&jobsource=checkc">徵才訊息</a>
+				</li>
+
+			</ul>
+			
+		</div>
+
+		
+		
+		<table class="header_rwd_flagship" hidden >
+			<tr>
+				<td><a class="" href="/live/">電視頻道</a></td>
+				<td><a class="" href="/program/">隨選節目</a></td>
+				<td><a class="" href="/schedule/">節目表</a></td>
+				
+			</tr>
+		</table>
+		
+			
+	</div><!-- header_frame -->
+	
+	<script>
+	$(document).ready(function(){
+		var full_url =location.href.toLowerCase();
+
+		//$(".dropdownmenu_item[name]").each(function(){
+		$(".header_table>tbody>tr>td").each(function(){
+			
+			//var name = $(this).children("a").attr("name");
+			var name = $(this).attr("name");
+			
+			//console.log( name + " " +full_url );
+			if( full_url.indexOf( name ) >= 0 ){
+					
+				$(this).children("a").addClass("header_item_selected");
+				return false;
+			}
+
+		});
+	
+		if( full_url.indexOf("vod") >=0 ){
+			$("a[name='program']").addClass("header_item_selected");
+			
+		}
+		
+		if( $(".logo_m_href").is(":visible") ){
+			
+			//var h = $(".nav_menu_frame").height();
+			var h = $(".header_frame").outerHeight();
+			//console.log(h);
+			$("body").css("padding-top", h );
+		}
+		
+	});
+		
+			
+			
+	</Script>
+
+
+	
+	
+	
+	
+	
+
+<div class="top_promo_bg" style="" >
+
+	<div class="top_promo_frame flex">
+		
+		<div class="flex_item flex_item1"  >
+			<div class="track">
+				<ul class="top_promo1">
+				<li class='slide_item slide_item_1' index='1' src='/uploads/home/127_top.jpg'>
+							<a href='/vod/prog_id/507/get_vid/29886'>
+								<div>
+									<img src='/uploads/home/127_top.jpg'>	
+									<div class='top_pormo_text'>
+									<p>
+								
+									<p>感謝天父預備救贖的羔羊&hellip;願為世人捨身流血！</p></p>
+									</div>
+								</div>
+							</a>
+						 </li><li class='slide_item slide_item_2' index='2' src='/uploads/home/112_top.jpg'>
+							<a href='/vod/prog_id/1497/get_vid/29291'>
+								<div>
+									<img src='/uploads/home/112_top.jpg'>	
+									<div class='top_pormo_text'>
+									<p>
+								
+									<p>敬拜是無限大能！我心得著安息，直到永遠&hellip;&hellip;</p></p>
+									</div>
+								</div>
+							</a>
+						 </li><li class='slide_item slide_item_3' index='3' src='/uploads/home/113_top.jpg'>
+							<a href='/vod/prog_id/443/get_vid/8640'>
+								<div>
+									<img src='/uploads/home/113_top.jpg'>	
+									<div class='top_pormo_text'>
+									<p>
+								
+									<p>【大衛鮑森 講座】每週一卷 縱覽聖經</p></p>
+									</div>
+								</div>
+							</a>
+						 </li><li class='slide_item slide_item_4' index='4' src='/uploads/home/90_top.jpg'>
+							<a href='/vod/prog_id/637/get_vid/29242'>
+								<div>
+									<img src='/uploads/home/90_top.jpg'>	
+									<div class='top_pormo_text'>
+									<p>
+								
+									<p>抬起你的頭來仰望上帝，祂必賜恩幫助你。</p></p>
+									</div>
+								</div>
+							</a>
+						 </li><li class='slide_item slide_item_5' index='5' src='/uploads/home/91_top.jpg'>
+							<a href='/vod/prog_id/1130/get_vid/26202'>
+								<div>
+									<img src='/uploads/home/91_top.jpg'>	
+									<div class='top_pormo_text'>
+									<p>
+								
+									<p>耶穌的這句話&hellip;是我們面對心靈傷害的解藥。</p></p>
+									</div>
+								</div>
+							</a>
+						 </li><li class='slide_item slide_item_6' index='6' src='/uploads/home/128_top.jpg'>
+							<a href='https://www.pcstore.com.tw/goodtvstore/M54347555.htm'>
+								<div>
+									<img src='/uploads/home/128_top.jpg'>	
+									<div class='top_pormo_text'>
+									<p>
+								
+									<p>【大衛鮑森 研經叢書】以弗所書 注釋</p></p>
+									</div>
+								</div>
+							</a>
+						 </li><li class='slide_item slide_item_7' index='7' src='/uploads/home/119_top.jpg'>
+							<a href='https://www.litv.tv/vod/blessedlife/list.do?brc_id=236&sort=#focus_page1'>
+								<div>
+									<img src='/uploads/home/119_top.jpg'>	
+									<div class='top_pormo_text'>
+									<p>
+								
+									<p>超過 40 個 GOOD TV 專屬頻道，任選輕鬆看！</p></p>
+									</div>
+								</div>
+							</a>
+						 </li>	
+				
+
+				</ul>
+					<div class="top_promo1_page_frame">
+					<img src="/images/icon/arrow/left_gray.png" class="arrow_left arrow_icon">
+					<div class='top_promo1_dot top_promo1_page_1 top_promo1_selected' 
+						index='1'></div><div class='top_promo1_dot top_promo1_page_2 ' 
+						index='2'></div><div class='top_promo1_dot top_promo1_page_3 ' 
+						index='3'></div><div class='top_promo1_dot top_promo1_page_4 ' 
+						index='4'></div><div class='top_promo1_dot top_promo1_page_5 ' 
+						index='5'></div><div class='top_promo1_dot top_promo1_page_6 ' 
+						index='6'></div><div class='top_promo1_dot top_promo1_page_7 ' 
+						index='7'></div>					<img src="/images/icon/arrow/right_gray.png" class="arrow_right arrow_icon">
+					</div>
+			</div><!--track -->	
+		</div>	<!--flex_item -->		
+		
+		
+			
+					<div class='top_promo2 flex_item flex_item2' >
+					<a href='/vod/prog_id/1087/get_vid/29900'>
+				        <div class='Flex_embed_ratio_16x9'>
+							<img src='/uploads/home/19_top2.jpg'>
+						</div>
+						<div class='top_promo2_centent'>
+							<div class='top_promo2_content1'>台灣接棒走禱 27 天<BR>
+見證台灣福音復興</div>
+							<div class='top_promo2_content2'>好消息國度報導</div>
+						</div>
+					</a>
+					</div>
+					<div class='top_promo2 flex_item flex_item2' >
+					<a href='https://prayfortaiwan.net/riseup-growth-190420'>
+				        <div class='Flex_embed_ratio_16x9'>
+							<img src='/uploads/home/17_top.jpg'>
+						</div>
+						<div class='top_promo2_centent'>
+							<div class='top_promo2_content1'>守望者禱告<BR>
+提昇與增長</div>
+							<div class='top_promo2_content2'>Pray for Taiwan</div>
+						</div>
+					</a>
+					</div>		</div><!-- flex frame -->	
+	</div><!-- bg -->	
+	
+	
+	
+<!-- RWD promo2 -->	
+	<div class="rwd_promo2_container" hidden>
+	
+			<div class='div_table'>
+			
+		        <div class='div_cell rwd_promo2_cell_1'>
+					<a href='/vod/prog_id/1087/get_vid/29900'>
+					<img src='/uploads/home/19_top2.jpg'>
+					</a>
+				</div>
+				<div class='div_cell rwd_promo2_cell_2'>
+					<a href='/vod/prog_id/1087/get_vid/29900'>
+						<p class='p1'>台灣接棒走禱 27 天<BR>
+見證台灣福音復興</p>
+						<p class='p2'>好消息國度報導</p>
+					</a>
+				</div>
+			
+			</div>
+			<div class='div_table'>
+			
+		        <div class='div_cell rwd_promo2_cell_1'>
+					<a href='https://prayfortaiwan.net/riseup-growth-190420'>
+					<img src='/uploads/home/17_top.jpg'>
+					</a>
+				</div>
+				<div class='div_cell rwd_promo2_cell_2'>
+					<a href='https://prayfortaiwan.net/riseup-growth-190420'>
+						<p class='p1'>守望者禱告<BR>
+提昇與增長</p>
+						<p class='p2'>Pray for Taiwan</p>
+					</a>
+				</div>
+			
+			</div>	</div><!-- rwd_promo2_container -->	
+	
+
+<div class="content_home">
+	
+
+	<div class="hotprogram_container">
+		<div class="hotprogram_title">熱門節目推薦</div>
+				<img src="/images/icon/arrow/arrow_L.png" class="scroll_left" hidden >
+		<img src="/images/icon/arrow/arrow_R.png" class="scroll_right"  >
+		
+		<div class="hotprogram_track track">
+			
+			<ul class="hotprogram_ul">
+			<li > 
+							<a href='/vod/prog_id/927/get_vid/29923'>
+								<div class='hotprogram_flex' >
+									
+									<div class='hotprogram_item Flex_embed_ratio_16x9'>
+										<div class='modal' hidden>
+											<img src='/images/icon/play-button.png' class='playicon'>
+										</div>
+										<img class='Flex_embed_ratio_16x9_img' 
+										src='/uploads/index/543_index_hotprogram.jpg' >
+									</div>
+									<div class='hotprogram_describe'>	
+										<p>性騷擾 Say No！<br>
+兒童的身體界線</p>
+										<div class='hotprogram_label'>
+											家庭８點檔 轉轉發現愛
+										</div>
+									</div>
+								</div>
+		
+							</a>
+						</li><li > 
+							<a href='https://www.goodtv.tv/vod/prog_id/66/get_vid/26479'>
+								<div class='hotprogram_flex' >
+									
+									<div class='hotprogram_item Flex_embed_ratio_16x9'>
+										<div class='modal' hidden>
+											<img src='/images/icon/play-button.png' class='playicon'>
+										</div>
+										<img class='Flex_embed_ratio_16x9_img' 
+										src='/uploads/index/541_index_hotprogram.jpg' >
+									</div>
+									<div class='hotprogram_describe'>	
+										<p>復活節不只是慶典<br>
+重點是活出新生命
+</p>
+										<div class='hotprogram_label'>
+											道在人間
+										</div>
+									</div>
+								</div>
+		
+							</a>
+						</li><li > 
+							<a href='/vod/prog_id/530/get_vid/17280'>
+								<div class='hotprogram_flex' >
+									
+									<div class='hotprogram_item Flex_embed_ratio_16x9'>
+										<div class='modal' hidden>
+											<img src='/images/icon/play-button.png' class='playicon'>
+										</div>
+										<img class='Flex_embed_ratio_16x9_img' 
+										src='/uploads/index/542_index_hotprogram.jpg' >
+									</div>
+									<div class='hotprogram_describe'>	
+										<p>遠距離好沒安全感<br>
+我們的10個小約定</p>
+										<div class='hotprogram_label'>
+											幸福學堂
+										</div>
+									</div>
+								</div>
+		
+							</a>
+						</li><li > 
+							<a href='/vod/prog_id/987/get_vid/28699'>
+								<div class='hotprogram_flex' >
+									
+									<div class='hotprogram_item Flex_embed_ratio_16x9'>
+										<div class='modal' hidden>
+											<img src='/images/icon/play-button.png' class='playicon'>
+										</div>
+										<img class='Flex_embed_ratio_16x9_img' 
+										src='/uploads/index/544_index_hotprogram.jpg' >
+									</div>
+									<div class='hotprogram_describe'>	
+										<p>萬有的起點是神<br>
+與神有美好關係</p>
+										<div class='hotprogram_label'>
+											神國思維
+										</div>
+									</div>
+								</div>
+		
+							</a>
+						</li><li > 
+							<a href='/vod/prog_id/533/get_vid/26395'>
+								<div class='hotprogram_flex' >
+									
+									<div class='hotprogram_item Flex_embed_ratio_16x9'>
+										<div class='modal' hidden>
+											<img src='/images/icon/play-button.png' class='playicon'>
+										</div>
+										<img class='Flex_embed_ratio_16x9_img' 
+										src='/uploads/index/538_index_hotprogram.jpg' >
+									</div>
+									<div class='hotprogram_describe'>	
+										<p>與神同遊天堂去<br>
+病痛中的喜樂人生</p>
+										<div class='hotprogram_label'>
+											真情部落格
+										</div>
+									</div>
+								</div>
+		
+							</a>
+						</li><li > 
+							<a href='/vod/prog_id/66/get_vid/16321'>
+								<div class='hotprogram_flex' >
+									
+									<div class='hotprogram_item Flex_embed_ratio_16x9'>
+										<div class='modal' hidden>
+											<img src='/images/icon/play-button.png' class='playicon'>
+										</div>
+										<img class='Flex_embed_ratio_16x9_img' 
+										src='/uploads/index/539_index_hotprogram.jpg' >
+									</div>
+									<div class='hotprogram_describe'>	
+										<p>耶穌和十字架<br>
+與我的關係是？</p>
+										<div class='hotprogram_label'>
+											道在人間
+										</div>
+									</div>
+								</div>
+		
+							</a>
+						</li><li > 
+							<a href='/vod/prog_id/927/get_vid/29899'>
+								<div class='hotprogram_flex' >
+									
+									<div class='hotprogram_item Flex_embed_ratio_16x9'>
+										<div class='modal' hidden>
+											<img src='/images/icon/play-button.png' class='playicon'>
+										</div>
+										<img class='Flex_embed_ratio_16x9_img' 
+										src='/uploads/index/540_index_hotprogram.jpg' >
+									</div>
+									<div class='hotprogram_describe'>	
+										<p>你異性緣好到破表<br>
+還是糟到掉漆？
+</p>
+										<div class='hotprogram_label'>
+											家庭８點檔 轉轉發現愛
+										</div>
+									</div>
+								</div>
+		
+							</a>
+						</li><li > 
+							<a href='https://www.goodtv.tv/vod/prog_id/980/get_vid/26467'>
+								<div class='hotprogram_flex' >
+									
+									<div class='hotprogram_item Flex_embed_ratio_16x9'>
+										<div class='modal' hidden>
+											<img src='/images/icon/play-button.png' class='playicon'>
+										</div>
+										<img class='Flex_embed_ratio_16x9_img' 
+										src='/uploads/index/537_index_hotprogram.jpg' >
+									</div>
+									<div class='hotprogram_describe'>	
+										<p>藉著耶穌的重生<br>
+得著活潑盼望</p>
+										<div class='hotprogram_label'>
+											活潑真道
+										</div>
+									</div>
+								</div>
+		
+							</a>
+						</li>	
+			</ul>
+		</div>
+	</div>
+	
+		
+	<div class="list_container">
+
+		<div class="list_title">自由奔走 每一天</div>
+		
+		<img src="/images/icon/arrow/arrow_L.png" class="list_left" 
+		hidden >
+		<img src="/images/icon/arrow/arrow_R.png" class="list_right" 
+		hidden >
+		
+		<div class="list_track">
+			<ul class="list_ul">
+<li > 
+					<a href='/list/?L=80'>
+						<div class='list_flex promo_flex' >
+							
+							<div class='list_item Flex_embed_ratio_16x9'>
+								<div class='modal' hidden>
+									<img src='/images/icon/play-button.png' class='playicon'>
+								</div>
+								<img class='Flex_embed_ratio_16x9_img' 
+								src='https://w2.goodtv.tv/uploads/playlist_pro/80playlist_pro_m80qj.jpg'>
+							</div>
+							<div class='list_describe'>	
+								<p>溝通好關鍵</p>
+								<div class='list_label'>
+									讓自己更快樂
+								</div>
+							</div>
+						</div>
+		
+					</a>
+				</li><li > 
+					<a href='/list/?L=81'>
+						<div class='list_flex promo_flex' >
+							
+							<div class='list_item Flex_embed_ratio_16x9'>
+								<div class='modal' hidden>
+									<img src='/images/icon/play-button.png' class='playicon'>
+								</div>
+								<img class='Flex_embed_ratio_16x9_img' 
+								src='https://w2.goodtv.tv/uploads/playlist_pro/81playlist_pro_j0p1a.jpg'>
+							</div>
+							<div class='list_describe'>	
+								<p>專屬的音符空間</p>
+								<div class='list_label'>
+									聽聽音樂
+								</div>
+							</div>
+						</div>
+		
+					</a>
+				</li><li > 
+					<a href='/list/?L=83'>
+						<div class='list_flex promo_flex' >
+							
+							<div class='list_item Flex_embed_ratio_16x9'>
+								<div class='modal' hidden>
+									<img src='/images/icon/play-button.png' class='playicon'>
+								</div>
+								<img class='Flex_embed_ratio_16x9_img' 
+								src='https://w2.goodtv.tv/uploads/playlist_pro/83playlist_pro_bo6oi.jpg'>
+							</div>
+							<div class='list_describe'>	
+								<p>更要謙卑自己</p>
+								<div class='list_label'>
+									讓心意專注
+								</div>
+							</div>
+						</div>
+		
+					</a>
+				</li><li > 
+					<a href='/list/?L=82'>
+						<div class='list_flex promo_flex' >
+							
+							<div class='list_item Flex_embed_ratio_16x9'>
+								<div class='modal' hidden>
+									<img src='/images/icon/play-button.png' class='playicon'>
+								</div>
+								<img class='Flex_embed_ratio_16x9_img' 
+								src='https://w2.goodtv.tv/uploads/playlist_pro/82playlist_pro_r6urn.jpg'>
+							</div>
+							<div class='list_describe'>	
+								<p>一切都是恩典</p>
+								<div class='list_label'>
+									生命更豐盛
+								</div>
+							</div>
+						</div>
+		
+					</a>
+				</li>			</ul >
+		</div>
+	</div>
+		
+		
+	<div class="list_container">
+
+		<div class="list_title">勇於盼望 不害怕</div>
+		
+		<img src="/images/icon/arrow/arrow_L.png" class="list_left" 
+		hidden >
+		<img src="/images/icon/arrow/arrow_R.png" class="list_right" 
+		hidden >
+		
+		<div class="list_track">
+			<ul class="list_ul">
+<li > 
+					<a href='/list/?L=84'>
+						<div class='list_flex promo_flex' >
+							
+							<div class='list_item Flex_embed_ratio_16x9'>
+								<div class='modal' hidden>
+									<img src='/images/icon/play-button.png' class='playicon'>
+								</div>
+								<img class='Flex_embed_ratio_16x9_img' 
+								src='https://w2.goodtv.tv/uploads/playlist_pro/84playlist_pro_nq9b9.jpg'>
+							</div>
+							<div class='list_describe'>	
+								<p>信靠老爹就對了</p>
+								<div class='list_label'>
+									祂抓得住我
+								</div>
+							</div>
+						</div>
+		
+					</a>
+				</li><li > 
+					<a href='/list/?L=85'>
+						<div class='list_flex promo_flex' >
+							
+							<div class='list_item Flex_embed_ratio_16x9'>
+								<div class='modal' hidden>
+									<img src='/images/icon/play-button.png' class='playicon'>
+								</div>
+								<img class='Flex_embed_ratio_16x9_img' 
+								src='https://w2.goodtv.tv/uploads/playlist_pro/85playlist_pro_xzz34.jpg'>
+							</div>
+							<div class='list_describe'>	
+								<p>心情愉快的秘訣</p>
+								<div class='list_label'>
+									憂慮走開
+								</div>
+							</div>
+						</div>
+		
+					</a>
+				</li><li > 
+					<a href='/list/?L=86'>
+						<div class='list_flex promo_flex' >
+							
+							<div class='list_item Flex_embed_ratio_16x9'>
+								<div class='modal' hidden>
+									<img src='/images/icon/play-button.png' class='playicon'>
+								</div>
+								<img class='Flex_embed_ratio_16x9_img' 
+								src='https://w2.goodtv.tv/uploads/playlist_pro/86playlist_pro_tvy85.jpg'>
+							</div>
+							<div class='list_describe'>	
+								<p>誠實的原則</p>
+								<div class='list_label'>
+									勇於負責
+								</div>
+							</div>
+						</div>
+		
+					</a>
+				</li><li > 
+					<a href='/list/?L=87'>
+						<div class='list_flex promo_flex' >
+							
+							<div class='list_item Flex_embed_ratio_16x9'>
+								<div class='modal' hidden>
+									<img src='/images/icon/play-button.png' class='playicon'>
+								</div>
+								<img class='Flex_embed_ratio_16x9_img' 
+								src='https://w2.goodtv.tv/uploads/playlist_pro/87playlist_pro_gqnzk.jpg'>
+							</div>
+							<div class='list_describe'>	
+								<p>如何成全他人</p>
+								<div class='list_label'>
+									對別人更好
+								</div>
+							</div>
+						</div>
+		
+					</a>
+				</li>			</ul >
+		</div>
+	</div>
+		
+	
+	
+
+	<a href="https://goo.gl/BPVHzg" target="_blank" >
+		<img src="uploads/index/36_index_second.jpg"  class="promo_middle">
+	</a>
+
+	
+	<div class="news_container">
+		<div class="news_title">最新消息</div>
+		
+				<img src="/images/icon/arrow/arrow_L.png" class="news_left"  hidden>
+		<img src="/images/icon/arrow/arrow_R.png" class="news_right" >
+		<div class="news_track">
+			
+			<ul class="news_ul">
+			<li > 
+							<a href='https://www.pcstore.com.tw/goodtvstore/M54347555.htm'>
+								<div class='news_flex'>
+									<div class='news_item Flex_embed_ratio_16x9'>
+										<img src='/uploads/index/36_index_news.jpg'>
+									</div>
+									<div class='news_item news_describe'>
+										
+										<p>大衛‧鮑森研經叢書／以弗所書(書)<span style='font-size:9pt;color:blue;'>...more</span></p>
+										
+									</div>
+								</div>
+		
+							</a>
+						</li><li > 
+							<a href='https://www.goodtv.tv/Intern/2019/%E5%AF%A6%E7%BF%92%E6%8B%9B%E6%94%B6%E8%BE%A6%E6%B3%952019.pdf'>
+								<div class='news_flex'>
+									<div class='news_item Flex_embed_ratio_16x9'>
+										<img src='/uploads/index/35_index_news.jpg'>
+									</div>
+									<div class='news_item news_describe'>
+										
+										<p>暑期實習熱情招募中！歡迎加入媒體宣教行列！<span style='font-size:9pt;color:blue;'>...more</span></p>
+										
+									</div>
+								</div>
+		
+							</a>
+						</li><li > 
+							<a href='https://youtu.be/YEjBIRmfsLc'>
+								<div class='news_flex'>
+									<div class='news_item Flex_embed_ratio_16x9'>
+										<img src='/uploads/index/31_index_news.jpg'>
+									</div>
+									<div class='news_item news_describe'>
+										
+										<p>歡迎加入媒體宣教的行列<span style='font-size:9pt;color:blue;'>...more</span></p>
+										
+									</div>
+								</div>
+		
+							</a>
+						</li><li > 
+							<a href='http://www.pcstore.com.tw/goodtvstore'>
+								<div class='news_flex'>
+									<div class='news_item Flex_embed_ratio_16x9'>
+										<img src='/uploads/index/30_index_news.jpg'>
+									</div>
+									<div class='news_item news_describe'>
+										
+										<p>影響你一生的18堂課！學者牧者強力推薦 錢玉芬老師<span style='font-size:9pt;color:blue;'>...more</span></p>
+										
+									</div>
+								</div>
+		
+							</a>
+						</li><li > 
+							<a href='https://www.goodtv.tv/app/download'>
+								<div class='news_flex'>
+									<div class='news_item Flex_embed_ratio_16x9'>
+										<img src='/uploads/index/12_index_news.jpg'>
+									</div>
+									<div class='news_item news_describe'>
+										
+										<p>GOOD TV&nbsp;App 隨身屬靈好夥伴<span style='font-size:9pt;color:blue;'>...more</span></p>
+										
+									</div>
+								</div>
+		
+							</a>
+						</li>				
+			</ul>
+		</div>
+	</div>
+		
+	
+
+
+	
+	
+</div><!--content_home -->
+
+
+<div class="rwd_footer" hidden>
+	<p>
+		財團法人加百列福音傳播基金會 <br>
+		版權所有，請勿擅自轉載節錄重製<br>
+		© 2019 GOODTV, All Rights Reserved 
+	</p>
+
+</div>
+<div class="full_footer">
+	<hr>
+
+	<div class="footer_flex1">
+		<div class="footer_flex1_item footer_flex1_item1">
+			
+				<label class=""> 關於好消息 </label>
+				
+				<a href="/about/">宗旨與使命</a>
+				<a href="/how_to_watch/">收看方式 </a>
+				
+				<a href="https://i-donate.goodtv.tv/Online/">支持奉獻 </a>
+				<a href="http://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=484a436b3c36402134323c1d1d1d1d5f2443a363189j56&jobsource=checkc" target="_blank">
+					加入好消息
+				</a>
+				
+		</div>
+		<div class="footer_flex1_item footer_flex1_item2">
+				<label> 商品與服務 </label>
+				
+				<a href="http://www.pcstore.com.tw/goodtvstore" target="_blank">網路書房</a>
+				<a href="/magazine">好消息月刊</a>
+				<a href="https://w2.goodtv.tv/newsletter/new/" target="_blank">訂閱電子報</a>
+				<a href="/quote/" class="last_href">引用申請</a>
+				<a href="/family/" class="last_href">家庭關懷事工</a>
+		</div>		
+		<div class="footer_flex1_item footer_flex1_item3">
+				<label> 每日靈糧 </label>
+				
+			
+					<a href="/daily/book/intouch/tw">InTouch 生命的觸動</a>
+					<a href="/daily/book/thewordforyoutoday/tw" class="last_href">The Word For You Today 得力的一天</a>
+				<br>	
+				<label>教材下載區 </label>	
+					<a href="https://w2.goodtv.tv/library/youth/" target="_blank">少年體驗隊</a>
+					<a href="https://w2.goodtv.tv/library/love/" target="_blank">幸福學堂-戀愛講義</a>
+	
+		</div>		
+		<div class="footer_flex1_item">
+				<label> 與我們連結 </label>
+			
+					<a href="/service/">線上客服</a>
+					<a href="/faq">FAQ問題集</a>
+					
+					<a href="https://www.youtube.com/user/goodtv" target="_blank">好消息YouTube</a>
+					<a href="https://www.facebook.com/goodtv" target="_blank">好消息FB粉絲團</a>
+					<a href="/app/" target="_blank">GOOD TV App</a>
+					
+				
+		</div>		
+		<div class="footer_flex1_item">
+			<label>  更多好消息</label>
+				
+			<a href="http://goodtvnews.goodtv.tv/goodtvnews/" target="_blank">好消息新聞</a>
+			<a href="http://family.goodtv.tv/family/" target="_blank">家庭好消息</a>
+			<a href="http://blog.goodtv.tv" target="_blank">好消息講台</a>
+			
+				
+		</div>		
+		<div class="footer_flex1_item footer_flex1_item6">
+			<label> 海外地區 </label>
+			
+			<a href="http://www.goodtvusa.tv/Site/index.php/home" target="_blank">
+			好消息北美網站 
+			<span class="footer_small_font">( GOOD TV USA )</span>
+			</a>
+			<a href="http://goodtv.id/" target="_blank">
+			好消息印尼網站 
+			<span class="footer_small_font">( GOOD TV Indonesia )</span>
+			</a>
+				
+				
+		</div>	
+		
+	</div><!-- footer_flex1 -->
+	
+		
+	<hr>
+
+	<div class="footer_flex2">
+		<div  class="footer_flex2_item footer_flex2_item1" >
+			<img src="/images/GoodTV_logo2.png" class="footer_logo">	
+			<div class="copyright" >
+					電話：02-8024-3911 <br>
+					傳真：02-8024-3938<br>
+					奉獻傳真：02-8024-3933<br>
+					好消息關懷專線：02-2391-1900<br>
+					財團法人加百列福音傳播基金會 <br>
+					
+					
+			</div>
+		</div>
+		<div class="footer_flex2_item footer_flex2_item2" >		
+			
+			<div class="social_site_link_container">
+
+			
+				<a href="https://play.google.com/store/apps/details?id=app.goodtv.tv" target="_blank">
+					<img src="/images/icon/playstore.png" >		
+				</a>
+				<a href="https://itunes.apple.com/us/app/good-tv-%E5%A5%BD%E6%B6%88%E6%81%AF-%E6%89%8B%E6%A9%9F%E7%89%88/id1045887660?mt=8" target="_blank">
+					<img src="/images/icon/appstore.png" >	
+				</a>
+				
+				<a href="https://www.facebook.com/goodtv" target="_blank">
+					<img src="/images/icon/Facebook_new.png" >		
+				</a>
+				<a href="https://www.youtube.com/user/goodtv" target="_blank">
+					<img src="/images/icon/youtube_new.png" >	
+				</a>
+				
+				
+				<a href="https://line.me/R/ti/p/%40efr5895y" target="_blank">
+					<img src="/images/icon/LINE_new.png" >	
+				</a>
+				<a href="https://www.instagram.com/goodtv_ig" target="_blank">
+					<img src="/images/icon/IG_new.png" >	
+				</a>
+			</div>
+			
+			
+		
+			<div class="copyright2" >
+				版權所有，請勿擅自轉載節錄重製<br>
+				© 2019 GOODTV, All Rights Reserved 
+			
+			</div>
+			
+				
+		</div>
+	</div>
+	
+	
+	
+</div>
+
+
+
+
+
+</body>
+</html>

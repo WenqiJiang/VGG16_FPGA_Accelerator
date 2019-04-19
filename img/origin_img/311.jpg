@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>404错误页面</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	color: #003300;
+	font-weight: bold;
+}
+body {
+	background-color: #00751E;
+}
+-->
+</style>
+</head>
+
+<body>
+<div align="center"><img src="http://www.shaoerw.com/img/404.jpg" alt="404" width="850" height="525" border="0" usemap="#Map" />
+<map name="Map" id="Map"><area shape="rect" coords="380,369,718,412" href="http://www.shaoerw.com" />
+</map>
+</body>
+</html>

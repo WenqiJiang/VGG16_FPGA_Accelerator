@@ -1,0 +1,38 @@
+﻿<!-- HKPic1 -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="icon" href="http://hk.crntt.com/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://hk.crntt.com/favicon.ico" type="image/x-icon">
+<title>中國評論新聞網</title>
+
+
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"2kpTe1a0BT00os", domain:"crntt.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=2kpTe1a0BT00os" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+
+<!-- http://crntt.com redirect http://www.crntt.com -->
+<script type="text/javascript">
+domainname=document.domain.toUpperCase();
+if ( (domainname=='CRNTT.COM') || (domainname=='GB.CHINAREVIEWNEWS.COM') || (domainname=='WWW.ZHGPL.COM') )
+{
+   window.location.href='http://www.CRNTT.com';
+}
+</script>
+
+</head>
+<body>
+<div align="center">
+<h1>&nbsp;</h1>
+<font size="+5"><strong>中國評論新聞網</strong></font>
+<h2>&nbsp;</h2>
+<font size="+3">請使用&nbsp;<font color="blue"><a href="http://www.CRNTT.com" title="中國評論新聞網">http://www.CRNTT.com</a></font>&nbsp;流覽</font>
+</div>
+</body>
+</html>
