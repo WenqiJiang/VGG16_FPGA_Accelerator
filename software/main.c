@@ -3,7 +3,7 @@
 // Send data from HPS DDR3
 // to FPGA On-chip Memory
 // compile with
-// gcc -o hpsv2 hpsv2.c
+// gcc hps_v1.c -o hps_v1  -O3
 //
 // based on a design from
 // https://github.com/robertofem/CycloneVSoC-examples/blob/master/Linux-applications/DMA_transfer_FPGA_DMAC
@@ -25,7 +25,7 @@
 
 
 #define ITER 4*1024*1024
-#define ITER2 1
+#define ITER2 1024
 /* ----------------------------------*/
 //#define H2F_AXI_MASTER_BASE    0xC0000000
 #define F2H_SDRAM_MASTER_BASE  0x00000000
@@ -135,20 +135,24 @@ int main(void) {
 
     // Write data into DRAM on FPGA
     printf("SDRAM virtual address is %p\n\n", dram_ptr);
-
+    
+    for (int i=0; i < 16*1024*1024; i++){
+        *(dram_ptr + i) = 2141;
+    }
+    
     gettimeofday(&t1, NULL);
     for (int i=0; i < ITER; i++){
-        *(dram_ptr + i) = 250;
+        *(dram_ptr + i) = i;
     }
     gettimeofday(&t2, NULL);
-    elapsedTime = (t2.tv_sec - t1.tv_sec) * 1000.0;
+    elapsedTime = (t2.tv_usec - t1.tv_usec) / 1000;
     printf("HPS write SDRAM T=%.0f mSec \n", elapsedTime);
 
-    temp = *(dram_ptr + 1);
+    temp = *(dram_ptr + 0xa);
     printf("十进制 %d   16进制 %x   \n", temp, temp);
-/*    temp = *(dram_ptr + 3000);
+    temp = *(dram_ptr + 10);
     printf("十进制 %d   16进制 %x   \n", temp, temp);
-*/
+
     printf("Write data into SDRAM successful\n");
     printf("Data at %p\n", dram_ptr);
     printf("===============================\n\r");
@@ -158,31 +162,31 @@ int main(void) {
     // from https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ug/ug_embedded_ip.pdf
     // version: 19.1
     // section 29.4.3: Table 283: Control Regesiter bits
+    // Stop (initialize) the dma at first
     *(DMA0_status_ptr) = 0x00000000;
-    temp = *(DMA0_status_ptr+0);
-    printf("DMA0_status_ptr 0x%08x\n", temp);
     // read bus_master gets data from DRAM addr = 0x0000_0000, setted by Qsys
     *(DMA0_status_ptr + 1) = 0x00000000;
     // write bus_master for FPGA on-chip memory is mapped to 0x0800_0000, setted by Qsys
     *(DMA0_status_ptr + 2) = 0x08000000;
     // 1 word = 4 bytes
-    *(DMA0_status_ptr + 3) = 4 * ITER2;
+    *(DMA0_status_ptr + 3) = 2 * ITER2;
     // From table 283:
-    // set bit 2 for WORD transfer
+    // set bit 1 for half-WORD transfer, set 0,1,2 digit to 1 according to data-width
 	// set bit 3 to start DMA0
 	// set bit 7 to stop on byte-count   
     gettimeofday(&t1, NULL);
-    *(DMA0_status_ptr + 6) = 0b10001100;
-    temp = *(DMA0_status_ptr+0);
-    printf("DMA0_status_ptr 0x%08x\n", temp);
+    *(DMA0_status_ptr + 6) = 0b10001010;
     printf("Start transfer from SDRAM to On-chip Memory\n");
     while ((*(DMA0_status_ptr) & 0x010) == 0) {
         WAIT;
     }
     gettimeofday(&t2, NULL);
-    elapsedTime = (t2.tv_sec - t1.tv_sec) * 1000000.0;
+    elapsedTime = (t2.tv_usec - t1.tv_usec);
     printf("SDRAM write to On-chip T=%.0f uSec \n", elapsedTime);
     printf("===============================\n\r");
+
+    temp = *(dram_ptr + 8*1024*1024);
+    printf("data at 0x03000000: %d\n", temp);
 
     // DMA0 transfer from HPS_DDR3->FPGA_On_chip_memory
     // set up DMA0
@@ -191,26 +195,27 @@ int main(void) {
     // section 29.4.3: Table 283: Control Regesiter bits
     *(DMA0_status_ptr) = 0;
     // read bus_master gets data from DRAM addr = 0x0000_0000, setted by Qsys
-    *(DMA0_status_ptr + 4) = 0x08000000;
+    *(DMA0_status_ptr + 1) = 0x08000000;
     // write bus_master for FPGA on-chip memory is mapped to 0x0800_0000, setted by Qsys
-    *(DMA0_status_ptr + 8) = 0xc3000000;
+    *(DMA0_status_ptr + 2) = 0x02000000;
     // 1 word = 4 bytes
-    *(DMA0_status_ptr + 12) = 4 * ITER2;
+    *(DMA0_status_ptr + 3) = 2 * ITER2;
     // From table 283:
+    //
     // set bit 2 for WORD transfer
 	// set bit 3 to start DMA0
 	// set bit 7 to stop on byte-count
     printf("Starting transfer from On-chip Memory to SDRAM\n");
     gettimeofday(&t1, NULL);
-    *(DMA0_status_ptr + 24) = 0b10001100;
+    *(DMA0_status_ptr + 6) = 0b10001010;
     while ((*(DMA0_status_ptr) & 0x010) == 0) {
         WAIT;
     }
     gettimeofday(&t2, NULL);
-    elapsedTime = (t2.tv_sec - t1.tv_sec) * 1000000.0;
+    elapsedTime = (t2.tv_usec - t1.tv_usec);
     printf("On-chip write to SDRAM T=%.0f uSec \n", elapsedTime);
     
-    temp = *(dram_ptr+3000000);
-    printf("Data at 0xc300000000 is %d\n", temp);
+    temp = *(dram_ptr + 8*1024*1024+1);
+    printf("Data after at 0x03000000 is %d\n", temp);
 
 }
