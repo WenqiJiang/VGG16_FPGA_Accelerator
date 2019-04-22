@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html  lang="zh-hans" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-440163-4", {"cookieDomain":"auto"});ga("require", "displayfeatures");ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<meta name="title" content="法轮大法正见网" />
+<link rel="shortlink" href="https://www.zhengjian.org/" />
+<link rel="canonical" href="https://www.zhengjian.org/" />
+<link rel="mask-icon" href="/safari-pinned-tab.svg" />
+<link rel="icon" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="icon" sizes="32x32" href="/favicon-32x32.png" />
+<meta name="generator" content="ZJ" />
+<meta name="keywords" content="法轮大法正见网,法轮大法,正见网,正见,李洪志,真相,zhengjian.org,Falun Gong,Falun Dafa,Li Hongzhi,persecution,truth" />
+<meta name="p:domain_verify" content="4a367022d55600981a00b01281819a1e" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="refresh" content="1200" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, no-transform" />
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="Pragma" content="no-cache" />
+<link rel="shortcut icon" href="/themes/zhengjian/zjfavicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>法轮大法正见网</title>
+    <link rel="stylesheet" href="/sites/default/files/css/css_7Hw_YJ1r-lsMO_UxuKV3JT0Iwqcwz2bzI5sPiatAWFQ.css?pq4qkx" media="all" />
+<link rel="stylesheet" href="/sites/default/files/css/css_g4tWNWouZmkRf9ZExowvc3uIImnBuz1SUTG9uXSbbAw.css?pq4qkx" media="all" />
+
+    
+<!--[if lte IE 8]>
+<script src="/core/assets/vendor/html5shiv/html5shiv.min.js?v=3.7.3"></script>
+<![endif]-->
+
+  </head>
+  <body class="path-frontpage has-glyphicons">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      跳转到主要内容
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="zj-page">
+  <div class="zj-page-wrapper">
+ 
+  <div class="zj-banner">
+      <div class="region region-zj-banner">
+          <a class="logo navbar-btn pull-left" href="/" title="首页" rel="home">
+      <img src="/themes/zhengjian/top.jpg" alt="首页" />
+    </a>
+      
+  </div>
+
+  </div>  
+<div class="clear"></div>
+<div class="lgnei">
+    <select onchange="window.location.href=this.options[this.selectedIndex].value" name="langSel">
+        <option value="http://www.zhengjian.org" selected="selected">语种</option>
+        <option value="http://www.pureinsight.org">English</option>
+        <option value="http://www.zhengjian.org">中文简体</option>
+        <option value="http://big5.zhengjian.org">中文正体</option>        
+        <option value="http://chanhkien.org">Vietnamese</option>
+        <option value="http://www.zhengjian.or.kr">한국어</option>
+    </select>
+</div>
+<div class="clear"></div>
+
+       <header class="navbar navbar-default container" id="navbar" role="banner">
+        <div class="navbar-header">
+          <div class="mu-mobile">          
+            <a href="/"><img src ="/themes/zhengjian/img/zhengjian_m.png" title="zhengjian 正见网" height="50px"></a>
+          </div>
+          <div class="mu-header-m">
+            <div class="mu-search2">          
+              <a href="/search"><img src ="/themes/zhengjian/img/search-white-30.png" title="zhengjian 正见网" height="30px"></a>
+            </div>
+                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+                            <div class="navbar-collapse collapse">
+                   <div class="region region-navigation-collapsible">
+    <nav role="navigation" aria-labelledby="block-zhengjian-main-menu-menu" id="block-zhengjian-main-menu">
+            <h2 class="sr-only" id="block-zhengjian-main-menu-menu">Main navigation</h2>
+
+      
+      <ul class="menu menu--main nav navbar-nav">
+                      <li class="first">
+                                        <a href="/" data-drupal-link-system-path="&lt;front&gt;" class="is-active">首页</a>
+              </li>
+                      <li>
+                                        <a href="/news" data-drupal-link-system-path="taxonomy/term/12074">正见新闻</a>
+              </li>
+                      <li>
+                                        <a href="/zj/culturenet" data-drupal-link-system-path="taxonomy/term/651">神传文化</a>
+              </li>
+                      <li>
+                                        <a href="/zj/falunwitness" data-drupal-link-system-path="taxonomy/term/647">大法真相</a>
+              </li>
+                      <li>
+                                        <a href="/zj/music" data-drupal-link-system-path="taxonomy/term/12078">天音</a>
+              </li>
+                      <li>
+                                        <a href="/taxonomy/term/104" data-drupal-link-system-path="taxonomy/term/104">人与环境</a>
+              </li>
+                      <li>
+                                        <a href="/taxonomy/term/81" data-drupal-link-system-path="taxonomy/term/81">生命探索</a>
+              </li>
+                      <li>
+                                        <a href="/taxonomy/term/84" data-drupal-link-system-path="taxonomy/term/84">文明新见</a>
+              </li>
+                      <li>
+                                        <a href="/taxonomy/term/645" data-drupal-link-system-path="taxonomy/term/645">文学艺术</a>
+              </li>
+                      <li>
+                                        <a href="/zj/prophecy" data-drupal-link-system-path="taxonomy/term/648">警世预言</a>
+              </li>
+                      <li>
+                                        <a href="/zj/astronomy" data-drupal-link-system-path="taxonomy/term/650">宇宙时空</a>
+              </li>
+                      <li>
+                                        <a href="/taxonomy/term/573" data-drupal-link-system-path="taxonomy/term/573">剧场</a>
+              </li>
+                      <li>
+                                        <a href="/zj/book" data-drupal-link-system-path="node/1100">书籍</a>
+              </li>
+                      <li class="last">
+                                        <a href="/taxonomy/term/12649" data-drupal-link-system-path="taxonomy/term/12649">正见广播</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-secondarymenu-menu" id="block-secondarymenu">
+  
+  <ul class="menu nav menu_special">
+      <li><span>2019年4月19日文章：<a href="/sites/default/files/files/2019/4/19/fastnews.html">快速浏览</a> | <a href="/archive/created/day/20190419">列表</a> | <a href="/sites/default/files/files/2019/4/19/4192019.zip">下载</a></span></li>
+  </ul>
+  
+      
+      <ul class="menu menu--secondary-menu nav">
+                      <li class="first">
+                                        <a href="/daily-article" data-drupal-link-system-path="daily-article">按日浏览</a>
+              </li>
+                      <li>
+                                        <a href="/contact/tougao" data-drupal-link-system-path="contact/tougao">网上投稿</a>
+              </li>
+                      <li>
+                                        <a href="/contact/feedback" data-drupal-link-system-path="contact/feedback">联系我们</a>
+              </li>
+                      <li>
+                                        <a href="/rss.xml" data-drupal-link-system-path="rss.xml">RSS订阅</a>
+              </li>
+                      <li class="last">
+                                        <a href="/node/245720" title="正见天音播客" data-drupal-link-system-path="node/245720">天音播客</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+  </div>
+
+            </div>
+            </header>
+  
+<div class="clear"></div>
+
+    <div role="main" class="main-container container js-quickedit-main-content">
+    <div class="row">
+                                            <div class="col-sm-12" role="heading">
+                      <div class="region region-header">
+    <section id="block-chinesedaynameblock" class="block block-cndayname block-chinese-date-block clearfix">
+  
+    
+
+      <div class="chinese-date"><a target="_blank" href="/wnl/index.html">万年历</a> &nbsp; 美东时间&nbsp;2019年4月19日 星期五 （己亥年三月十五日） </div>
+  </section>
+
+
+  </div>
+
+                </div>
+                          
+    <div class="clear"></div>       
+        	<div class="clear"></div>
+	    <div class="zj-section zj-col-1">
+                 
+                               
+                                        <div class="zj-special_1">
+                          <div class="region region-special-1">
+    <section class="views-element-container block block-views block-views-blockzj-xinjingwen-block-1 clearfix" id="block-views-block-zj-xinjingwen-block-1">
+  
+    
+
+      <div class="form-group"><div class="view view-zj-xinjingwen view-id-zj_xinjingwen view-display-id-block_1 js-view-dom-id-5ae54c94599add928011ca3a27d66f8a08e1a15dd968cccdabe257d78ad20b4d">
+  
+    
+      
+  
+          </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+                    </div>
+                                        
+                   
+                                <div id="user-1-2">
+                               
+                                        <div class="col-user-1" role="slider">
+                          <div class="region region-user-1">
+    <section class="views-element-container block block-views block-views-blockzj-slider-block-1 clearfix" id="block-views-block-zj-slider-block-1">
+  
+    
+
+      <div class="form-group"><div class="view view-zj-slider view-id-zj_slider view-display-id-block_1 js-view-dom-id-6141bef990e3e702e07aa2740e6dd851120a59e7abfe29c4cf5dc1f7c4427bfd">
+  
+    
+      
+      <div class="view-content">
+        <div class="skin-default">
+    
+    <div id="views_slideshow_cycle_main_zj_slider-block_1" class="views_slideshow_cycle_main views_slideshow_main">
+    <div id="views_slideshow_cycle_teaser_section_zj_slider-block_1"  class="views_slideshow_cycle_teaser_section">
+     <div id="views_slideshow_cycle_div_zj_slider-block_1_0"  class="views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+      <div  class="views-row views-row-0 views-row-odd views-row-first zj-front-slideshow">
+  <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/250842"><img src="/sites/default/files/styles/zj_slider_front/public/images/2019/04/250842_1554993179.jpg?h=252f27fa&amp;itok=VLeVJHtf" width="315" height="200" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/node/250842" hreflang="zxx">神韵台北首场售罄 立法院长：一生要看一次</a></span></div>
+</div>
+
+  </div>
+
+     <div id="views_slideshow_cycle_div_zj_slider-block_1_1"  class="views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+      <div  class="views-row views-row-1 views-row-even zj-front-slideshow">
+  <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/250421"><img src="/sites/default/files/styles/zj_slider_front/public/images/2019/03/250421_1553234005.jpg?h=41832e7f&amp;itok=89UAz4Oy" width="315" height="200" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/node/250421" hreflang="zxx">林肯中心29场爆满 神韵创纪录 精英盛赞</a></span></div>
+</div>
+
+  </div>
+
+     <div id="views_slideshow_cycle_div_zj_slider-block_1_2"  class="views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+      <div  class="views-row views-row-2 views-row-odd zj-front-slideshow">
+  <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/250217"><img src="/sites/default/files/styles/zj_slider_front/public/images/2019/03/250217_1552313486_18.jpg?h=252f27fa&amp;itok=RNSGx7MN" width="315" height="200" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/node/250217" hreflang="zxx">神韵25场风靡费城 爆满成常态 各界精英震撼</a></span></div>
+</div>
+
+  </div>
+
+     <div id="views_slideshow_cycle_div_zj_slider-block_1_3"  class="views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+      <div  class="views-row views-row-3 views-row-even zj-front-slideshow">
+  <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/249820"><img src="/sites/default/files/styles/zj_slider_front/public/images/2019/02/249820_1550673515.jpg?h=252f27fa&amp;itok=7sY5jsnd" width="315" height="200" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/node/249820" hreflang="zxx">神韵德国连创票房奇迹 非凡技艺征服艺术界</a></span></div>
+</div>
+
+  </div>
+
+     <div id="views_slideshow_cycle_div_zj_slider-block_1_4"  class="views_slideshow_cycle_slide views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-odd">
+      <div  class="views-row views-row-4 views-row-odd views-row-last zj-front-slideshow">
+  <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/249744"><img src="/sites/default/files/styles/zj_slider_front/public/images/2019/02/249744_1550404387.jpeg?h=252f27fa&amp;itok=c6Ftk7TZ" width="315" height="200" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/node/249744" hreflang="zxx">【共产主义的终极目的】之一：序言</a></span></div>
+</div>
+
+  </div>
+
+  </div>
+
+</div>
+
+
+          <div class="views-slideshow-controls-bottom clearfix">
+        <div id="views_slideshow_controls_text_zj_slider-block_1"  class="views_slideshow_controls_text">
+  <span id="views_slideshow_controls_text_previous_zj_slider-block_1"  class="views_slideshow_controls_text_previous">
+  <a href="#">前一个</a>
+</span>
+
+  <span id="views_slideshow_controls_text_pause_zj_slider-block_1"  class="views_slideshow_controls_text_pause  views-slideshow-controls-text-status-play">
+  <a href="#">暂停</a>
+</span>
+
+  <span id="views_slideshow_controls_text_next_zj_slider-block_1"  class="views_slideshow_controls_text_next">
+  <a href="#">下一个</a>
+</span>
+
+</div>
+
+      </div>
+        </div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+                    </div>
+                    
+                                                            <div class="col-user-2" role="recommend">
+                          <div class="region region-user-2">
+    <section class="views-element-container block block-views block-views-blockfrontpage2-block-1 clearfix" id="block-views-block-frontpage2-block-1">
+  
+      <h2 class="block-title">推荐文章</h2>
+    
+
+      <div class="form-group"><div class="view view-frontpage2 view-id-frontpage2 view-display-id-block_1 js-view-dom-id-54ff88750f949a8f0da2890e8a072617a293a76df98747e28db15a61de9255da">
+  
+    
+      
+      <div class="view-content">
+      <div class="tuijianwenzhang-ul">
+  
+  <ul class="tuijianwenzhang-li">
+
+          <li class="zj-nowrap"><span class="views-field views-field-title"><span class="field-content"><a href="/node/250851" title="四川专案视频：神奇与辉煌、悲哀与巨变，就在四川！" target="_blank">四川专案视频：神奇与辉煌、悲哀与巨变，就在四川！</a></span></span></li>
+          <li class="zj-nowrap"><span class="views-field views-field-title"><span class="field-content"><a href="/node/250842" title="神韵台北首场售罄 立法院长：一生要看一次" target="_blank">神韵台北首场售罄 立法院长：一生要看一次</a></span></span></li>
+          <li class="zj-nowrap"><span class="views-field views-field-title"><span class="field-content"><a href="/node/250460" title="真相微电影：一次成功的审问" target="_blank">真相微电影：一次成功的审问</a></span></span></li>
+          <li class="zj-nowrap"><span class="views-field views-field-title"><span class="field-content"><a href="/node/250421" title="林肯中心29场爆满 神韵创纪录 精英盛赞" target="_blank">林肯中心29场爆满 神韵创纪录 精英盛赞</a></span></span></li>
+          <li class="zj-nowrap"><span class="views-field views-field-title"><span class="field-content"><a href="/node/250217" title="神韵25场风靡费城 爆满成常态 各界精英震撼" target="_blank">神韵25场风靡费城 爆满成常态 各界精英震撼</a></span></span></li>
+          <li class="zj-nowrap"><span class="views-field views-field-title"><span class="field-content"><a href="/node/249820" title="神韵德国连创票房奇迹 非凡技艺征服艺术界" target="_blank">神韵德国连创票房奇迹 非凡技艺征服艺术界</a></span></span></li>
+          <li class="zj-nowrap"><span class="views-field views-field-title"><span class="field-content"><a href="/node/249744" title="【共产主义的终极目的】之一：序言" target="_blank">【共产主义的终极目的】之一：序言</a></span></span></li>
+          <li class="zj-nowrap"><span class="views-field views-field-title"><span class="field-content"><a href="/node/249566" title="神韵墨尔本票房连爆 “创世主是生命的根本”" target="_blank">神韵墨尔本票房连爆 “创世主是生命的根本”</a></span></span></li>
+          <li class="zj-nowrap"><span class="views-field views-field-title"><span class="field-content"><a href="/node/248962" title="全世界大法弟子恭祝师尊过年好！（1）" target="_blank">全世界大法弟子恭祝师尊过年好！（1）</a></span></span></li>
+          <li class="zj-nowrap"><span class="views-field views-field-title"><span class="field-content"><a href="/node/249236" title="连14场爆满加座 纽约各界精英颂赞神韵非凡" target="_blank">连14场爆满加座 纽约各界精英颂赞神韵非凡</a></span></span></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          <div class="more-link form-group"><a href="/frontpage">更多内容</a></div>
+
+      </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+                    </div>
+                                </div> <!-- end user-1-2 --> 
+                         
+        <div class="clear"></div>  
+           
+        	<div id="user-3-4">
+          	<div class="user-3-4-inner">
+                                            <div class="col-user-3" role="shenyun">
+                    <div class="region region-user-3">
+    <section class="views-element-container block block-views block-views-blockzj-shenyun-recent-block-1 clearfix" id="block-views-block-zj-shenyun-recent-block-1">
+  
+      <h2 class="block-title">神韵世界巡回</h2>
+    
+
+      <div class="form-group"><div class="view view-zj-shenyun-recent view-id-zj_shenyun_recent view-display-id-block_1 js-view-dom-id-468348c8af0ce8ff4d24bd20454c3de4cb35109c74e44f0c04f83826f2ebfde4">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/251000" title=" 神韵英国萨城两次谢幕“我今天真见到神”" target="_blank"> 神韵英国萨城两次谢幕“我今天真见到神”</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250999" title="神韵橙县再爆满 阿波罗计划先驱赞传达和平与爱" target="_blank">神韵橙县再爆满 阿波罗计划先驱赞传达和平与爱</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250998" title="神韵基隆落幕 “艺术家修炼真善忍 散发正面能量”" target="_blank">神韵基隆落幕 “艺术家修炼真善忍 散发正面能量”</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250997" title=" “沐浴在神的能量中”神韵华府演出再售罄" target="_blank"> “沐浴在神的能量中”神韵华府演出再售罄</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250980" title="“神韵是最后救赎”  西棕榈滩连二场一票难求" target="_blank">“神韵是最后救赎”  西棕榈滩连二场一票难求</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250979" title="英国萨城首场爆满 精英赞神韵恢复传统文化" target="_blank">英国萨城首场爆满 精英赞神韵恢复传统文化</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250977" title="齐赴基隆追神韵 东亚精英品味中华文化之美" target="_blank">齐赴基隆追神韵 东亚精英品味中华文化之美</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250976" title="华府首场售罄  观众愿神韵传遍世界" target="_blank">华府首场售罄  观众愿神韵传遍世界</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250978" title=" 橙县爆满 前世界拳王赞神韵是失传的历史" target="_blank"> 橙县爆满 前世界拳王赞神韵是失传的历史</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250962" title="神韵橙县爆满 国际电影委员会副总裁赞神奇" target="_blank">神韵橙县爆满 国际电影委员会副总裁赞神奇</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250961" title="苏黎世八场全爆满 “神韵告诉我们正确的路”" target="_blank">苏黎世八场全爆满 “神韵告诉我们正确的路”</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250930" title="中外精英感受“神的力量” 神韵台北落幕" target="_blank">中外精英感受“神的力量” 神韵台北落幕</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250917" title="神韵苏黎世八场爆满落幕 精英感悟慈悲大爱" target="_blank">神韵苏黎世八场爆满落幕 精英感悟慈悲大爱</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250915" title="神韵台北大爆满 两岸精英感受“与神同在”" target="_blank">神韵台北大爆满 两岸精英感受“与神同在”</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250914" title="神韵克雷塔罗场场爆满 观众感受与神相连" target="_blank">神韵克雷塔罗场场爆满 观众感受与神相连</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250916" title="神韵洛杉矶再爆满 音乐家叹乐团绝对完美" target="_blank">神韵洛杉矶再爆满 音乐家叹乐团绝对完美</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250912" title="神韵亚特兰大十场落幕  “让自由之风吹拂世界”" target="_blank">神韵亚特兰大十场落幕  “让自由之风吹拂世界”</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250897" title="神韵苏黎世再一票难求 观众看到信仰的力量" target="_blank">神韵苏黎世再一票难求 观众看到信仰的力量</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250896" title="洛杉矶一票难求 金球奖艾美奖得主齐赞神韵" target="_blank">洛杉矶一票难求 金球奖艾美奖得主齐赞神韵</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250895" title="“终将在中国大陆上演” 神韵台北单日两场大爆满" target="_blank">“终将在中国大陆上演” 神韵台北单日两场大爆满</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250894" title="克雷塔罗再掀神韵热 州农业部长和市长盛赞" target="_blank">克雷塔罗再掀神韵热 州农业部长和市长盛赞</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250893" title="神韵波特兰一票难求 “表达精神信仰 这是勇气”" target="_blank">神韵波特兰一票难求 “表达精神信仰 这是勇气”</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250892" title="神韵亚特兰大爆满 商界精英盼寻法轮大法" target="_blank">神韵亚特兰大爆满 商界精英盼寻法轮大法</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250878" title="神韵苏黎世再加座售罄  前情报局长：不应给马克思主义留余地" target="_blank">神韵苏黎世再加座售罄  前情报局长：不应给马克思主义留余地</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250876" title="神韵天人合一 启人回归 台北精英如临天堂" target="_blank">神韵天人合一 启人回归 台北精英如临天堂</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250875" title="神韵波特兰首场演出大爆满 观众赞寓意深受启发" target="_blank">神韵波特兰首场演出大爆满 观众赞寓意深受启发</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250874" title="神韵风靡亚特兰大  作家：法轮功在遵从神的旨意" target="_blank">神韵风靡亚特兰大  作家：法轮功在遵从神的旨意</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250877" title="神韵洛杉矶大爆满 国会候选人感悟真的有神" target="_blank">神韵洛杉矶大爆满 国会候选人感悟真的有神</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250866" title="加座售磬 苏黎世观众赞神韵弘扬传统价值观" target="_blank">加座售磬 苏黎世观众赞神韵弘扬传统价值观</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250865" title="神韵震撼洛杉矶 艺术界赞：绝对必看的演出" target="_blank">神韵震撼洛杉矶 艺术界赞：绝对必看的演出</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+                </div>
+                            
+                                            <div class="col-user-4" role="recent">
+                    <div class="region region-user-4">
+    <section class="views-element-container block block-views block-views-blockzj-shenyun-recent-block-2 clearfix" id="block-views-block-zj-shenyun-recent-block-2">
+  
+      <h2 class="block-title">今日头版</h2>
+    
+
+      <div class="form-group"><div class="view view-zj-shenyun-recent view-id-zj_shenyun_recent view-display-id-block_2 js-view-dom-id-2f9eae92b3134b8477e1a40cfd468cb13804733b8e1fcb6b3724c432fb61fa7b">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/251000" title=" 神韵英国萨城两次谢幕“我今天真见到神”" target="_blank"> 神韵英国萨城两次谢幕“我今天真见到神”</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250999" title="神韵橙县再爆满 阿波罗计划先驱赞传达和平与爱" target="_blank">神韵橙县再爆满 阿波罗计划先驱赞传达和平与爱</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250998" title="神韵基隆落幕 “艺术家修炼真善忍 散发正面能量”" target="_blank">神韵基隆落幕 “艺术家修炼真善忍 散发正面能量”</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250997" title=" “沐浴在神的能量中”神韵华府演出再售罄" target="_blank"> “沐浴在神的能量中”神韵华府演出再售罄</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250123" title="瘟疫肆虐袭乡村　两家鸡禽毫无损" target="_blank">瘟疫肆虐袭乡村　两家鸡禽毫无损</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250926" title="做三退避免化名重复的方法" target="_blank">做三退避免化名重复的方法</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250990" title="复活节随想" target="_blank">复活节随想</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250991" title="“真正的文化在中国”" target="_blank">“真正的文化在中国”</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250967" title="讲清真相（第10期）：假自焚 真骗局（天安门前“被自焚”）" target="_blank">讲清真相（第10期）：假自焚 真骗局（天安门前“被自焚”）</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250825" title="修炼中的奇事" target="_blank">修炼中的奇事</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250980" title="“神韵是最后救赎”  西棕榈滩连二场一票难求" target="_blank">“神韵是最后救赎”  西棕榈滩连二场一票难求</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250979" title="英国萨城首场爆满 精英赞神韵恢复传统文化" target="_blank">英国萨城首场爆满 精英赞神韵恢复传统文化</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250977" title="齐赴基隆追神韵 东亚精英品味中华文化之美" target="_blank">齐赴基隆追神韵 东亚精英品味中华文化之美</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250976" title="华府首场售罄  观众愿神韵传遍世界" target="_blank">华府首场售罄  观众愿神韵传遍世界</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250978" title=" 橙县爆满 前世界拳王赞神韵是失传的历史" target="_blank"> 橙县爆满 前世界拳王赞神韵是失传的历史</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250687" title="修炼笔记（2）：新宇宙的神话-“补天”的故事" target="_blank">修炼笔记（2）：新宇宙的神话-“补天”的故事</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250845" title="鳏修" target="_blank">鳏修</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250827" title="中共为什么要搞假、恶、斗" target="_blank">中共为什么要搞假、恶、斗</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250964" title="《清流》正见周报 第571期" target="_blank">《清流》正见周报 第571期</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250120" title="大法创造的医学奇迹" target="_blank">大法创造的医学奇迹</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250778" title="算术漫谈：从《道德经》到黄金分割（三）" target="_blank">算术漫谈：从《道德经》到黄金分割（三）</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250824" title="“西游”悟道：高僧庙堂受辱  僧官不识真容" target="_blank">“西游”悟道：高僧庙堂受辱  僧官不识真容</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250767" title="司马承祯的弟子和他自己，都是白日飞升而去！" target="_blank">司马承祯的弟子和他自己，都是白日飞升而去！</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250962" title="神韵橙县爆满 国际电影委员会副总裁赞神奇" target="_blank">神韵橙县爆满 国际电影委员会副总裁赞神奇</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250961" title="苏黎世八场全爆满 “神韵告诉我们正确的路”" target="_blank">苏黎世八场全爆满 “神韵告诉我们正确的路”</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250954" title="塞班岛火树节　法轮功学员传真相" target="_blank">塞班岛火树节　法轮功学员传真相</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250953" title="德国多特蒙德公园节日　民众喜闻法轮功" target="_blank">德国多特蒙德公园节日　民众喜闻法轮功</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250952" title="丹麦民众关注中共迫害法轮功" target="_blank">丹麦民众关注中共迫害法轮功</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250901" title="得法后的改变" target="_blank">得法后的改变</a></span></div></li>
+          <li class="zj-nowrap"><div class="views-field views-field-title"><span class="field-content"><a href="/node/250944" title="一花一石一诀  天意显现人间" target="_blank">一花一石一诀  天意显现人间</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+                </div>
+                        	</div> <!-- end user-3-4-inner --> 
+            <div class="user-3-4-bottom"></div>
+          </div> <!-- end user-3-4 -->       
+                </div> <!-- end zj-section -->
+              
+                  
+        
+                                    <div class="zj-col-2 col-sm-3" >
+              <div class="region region-sidebar-second">
+    <section id="block-zjsearchapibox" class="block block-block-content block-block-content8cf8b404-e28a-4277-8e77-4ebaec602e19 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><form class="views-exposed-form" data-drupal-selector="views-exposed-form-search-page-1" action="/search" method="get" id="views-exposed-form-search-page-1" accept-charset="UTF-8" data-drupal-form-fields="edit-s,edit-submit-search">
+<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group"><label for="edit-keys" class="control-label sr-only">Search</label>
+<div class="input-group">
+<input data-drupal-selector="edit-search-api-fulltext" class="form-text required error form-control" id="edit-s" name="s" value="" size="30" maxlength="128" required="required" aria-required="true" aria-invalid="true" type="text" /><span class="input-group-btn"><br /><button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only" name=""><span class="sr-only">Search</span><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span></button></span></div>
+</div>
+<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-submit-search" id="edit-submit-search"></div>
+</form>
+</div>
+      
+  </section>
+
+<section class="views-element-container zj-rightbar1 hidden-xs hidden-sm hidden-md block block-views block-views-blockzj-external-link-block-1 clearfix" id="block-views-block-zj-external-link-block-1">
+  
+      <h2 class="block-title">最新经文</h2>
+    
+
+      <div class="form-group"><div class="view view-zj-external-link view-id-zj_external_link view-display-id-block_1 js-view-dom-id-7839de14c819e71fabc4847ba6fa33d23a3e1ea6718df5815cd1cb7ae950a239">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li class="zj-jingwen"><div class="views-field views-field-title"><span class="field-content"><a href="https://www.minghui.org/mh/articles/2018/11/27/致越南学员-377761.html" target="_blank">致越南学员</a></span></div></li>
+          <li class="zj-jingwen"><div class="views-field views-field-title"><span class="field-content"><a href="https://www.minghui.org/mh/articles/2018/11/24/致台湾交流会-377639.html" target="_blank">致台湾交流会</a></span></div></li>
+          <li class="zj-jingwen"><div class="views-field views-field-title"><span class="field-content"><a href="http://www.minghui.org/mh/articles/2018/10/28/376355.html" target="_blank">二零一八年新唐人与大纪元法会</a></span></div></li>
+          <li class="zj-jingwen"><div class="views-field views-field-title"><span class="field-content"><a href="http://www.minghui.org/mh/articles/2018/10/14/致2018年亚洲法会-375618.html" target="_blank">致二零一八年亚洲法会</a></span></div></li>
+          <li class="zj-jingwen"><div class="views-field views-field-title"><span class="field-content"><a href="http://www.minghui.org/mh/articles/2018/9/29/%E8%87%B4%E6%AC%A7%E6%B4%B2%E6%B3%95%E4%BC%9A-375135.html" target="_blank">致欧洲法会</a></span></div></li>
+          <li class="zj-jingwen"><div class="views-field views-field-title"><span class="field-content"><a href="http://www.minghui.org/mh/articles/2018/6/28/二零一八年华盛顿DC讲法-370391.html" target="_blank">二零一八年华盛顿DC讲法</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+            <div class="view-footer">
+      <div class="gengduo"><a target="_blank" href="http://www.minghui.org/mh/fenlei/217/">更多经文</a></div>
+
+    </div>
+    </div>
+</div>
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blockzj-external-link-block-3 clearfix" id="block-views-block-zj-external-link-block-3">
+  
+    
+
+      <div class="form-group"><div class="view view-zj-external-link view-id-zj_external_link view-display-id-block_3 js-view-dom-id-b4be0c67109b54c8264a01337bd6b39b34df8fb18d12ac80e5c1883d1d466907">
+  
+    
+      
+      <div class="view-content">
+          <div class="zj-jingwen views-row"><a href="http://www.shenyun.com" target="_blank">  <img src="/sites/default/files/images/2018/10/world_S-336x280_WORLD-SY19.jpg" width="672" height="560" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blockzj-sidebar-qikan-block-1 clearfix" id="block-views-block-zj-sidebar-qikan-block-1">
+  
+      <h2 class="block-title">正见期刊</h2>
+    
+
+      <div class="form-group"><div class="view view-zj-sidebar-qikan view-id-zj_sidebar_qikan view-display-id-block_1 js-view-dom-id-a7ba552ba2aee85dc6d20334046ed683f8d6daf3a37a92c915583a5c9db76609">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul class="zj-qikan">
+
+          <li class="zj-row-qikan views-row"><div class="views-field views-field-name"><span class="field-content"><a href="/taxonomy/term/656" hreflang="zh-hans">正见周刊</a></span></div></li>
+          <li class="zj-row-qikan views-row"><div class="views-field views-field-name"><span class="field-content"><a href="/taxonomy/term/657" hreflang="zh-hans">周刊录音版</a></span></div></li>
+          <li class="zj-row-qikan views-row"><div class="views-field views-field-name"><span class="field-content"><a href="/taxonomy/term/658" hreflang="zh-hans">正见周报</a></span></div></li>
+          <li class="zj-row-qikan views-row"><div class="views-field views-field-name"><span class="field-content"><a href="/taxonomy/term/12051" hreflang="zh-hans">正见知音</a></span></div></li>
+          <li class="zj-row-qikan views-row"><div class="views-field views-field-name"><span class="field-content"><a href="/taxonomy/term/659" hreflang="zh-hans">清流月报</a></span></div></li>
+          <li class="zj-row-qikan views-row"><div class="views-field views-field-name"><span class="field-content"><a href="/taxonomy/term/10706" hreflang="zh-hans">正见电子杂志</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          <div class="more-link form-group"><a href="/qikan">更多</a></div>
+
+      </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+          </div>
+                        </div>
+  </div>
+ 
+<div class="clear"></div>
+             <div class="col-zhengjian_book" role="zhengjian_book">
+          <div class="region region-zhengjian-book">
+    <section class="views-element-container hidden-sm block block-views block-views-blockzj-slider-book-block-1 clearfix" id="block-views-block-zj-slider-book-block-1-2">
+  
+    
+
+      <div class="form-group"><div class="view view-zj-slider-book view-id-zj_slider_book view-display-id-block_1 js-view-dom-id-f67446b0bd05fa14e1593363769490a9fcda095c64b4df57b72f57ba627a3e82">
+  
+    
+      
+      <div class="view-content">
+      <div class="rs-carousel">
+  <ul>
+          <li>
+        <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/75413"><img src="/sites/default/files/styles/zj_slider_book/public/news/images/2011/7/2/75413_2011_6_23_shiensong_cover_s.jpg?itok=nzVI2-so" width="110" height="150" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div>
+      </li>
+          <li>
+        <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/68466"><img src="/sites/default/files/styles/zj_slider_book/public/news/images/2010/9/11/68466_2011_5_15_finalcovers-m.jpg?itok=oPhTBQdh" width="110" height="150" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div>
+      </li>
+          <li>
+        <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/41813"><img src="/sites/default/files/styles/zj_slider_book/public/news/images/2007/1/15/41813_2007_11_18_tianzai_frontcover.jpg?itok=1-kDQphp" width="110" height="150" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div>
+      </li>
+          <li>
+        <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/62622"><img src="/sites/default/files/styles/zj_slider_book/public/news/images/2005/9/10/62622_2005_9_11_prophecy2.jpg?itok=kfc4Bjs9" width="110" height="150" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div>
+      </li>
+          <li>
+        <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/58263"><img src="/sites/default/files/styles/zj_slider_book/public/news/images/2009/3/9/58263_2009_3_9_tianyin2.jpg?itok=P3IOmJZf" width="110" height="150" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div>
+      </li>
+          <li>
+        <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/44259"><img src="/sites/default/files/styles/zj_slider_book/public/news/images/2007/6/4/44259_2007_6_4_zhongyimantan.jpg?itok=3piEIf7E" width="110" height="150" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div>
+      </li>
+          <li>
+        <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/43730"><img src="/sites/default/files/styles/zj_slider_book/public/news/images/2007/5/7/43730_2007_5_7_ysyh-cover.jpg?itok=4gLN8dFd" width="110" height="150" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div>
+      </li>
+          <li>
+        <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/40891"><img src="/sites/default/files/styles/zj_slider_book/public/news/images/2006/11/11/40891_2007_3_28_2007_3_26_shenxian_cover1.1_s.jpg?itok=02cEP1RO" width="110" height="150" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div>
+      </li>
+          <li>
+        <div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/40794"><img src="/sites/default/files/styles/zj_slider_book/public/news/images/2006/11/4/40794_2006_10_17_lhjs_cover_s.jpg?itok=o5I8PvHz" width="110" height="150" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div>
+      </li>
+      </ul>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+      </div>
+            
+  
+<div class="clear"></div>
+             <div class="col-user-5" role="images">
+          <div class="region region-user-5">
+    <section class="views-element-container block block-views block-views-blockzj-user5-xinwen-block-1 clearfix" id="block-views-block-zj-user5-xinwen-block-1">
+  
+    
+
+      <div class="form-group"><div class="zj-term zj-term-left view view-zj-user5-xinwen view-id-zj_user5_xinwen view-display-id-block_1 js-view-dom-id-cf6f15db77de97eaa953a18e3c43399317f9251235d47358a470f49d0163ffad">
+  
+    
+      <div class="view-header">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="zj-user5-menu">
+<ul><li><a href="http://www.zhengjian.org/taxonomy/term/35">真善忍国际美展</a></li>
+<li><a href="http://www.zhengjian.org/taxonomy/term/21">法轮功新闻</a></li>
+<li><a href="http://www.zhengjian.org/taxonomy/term/22">九评退党</a></li>
+<li><a href="http://www.zhengjian.org/taxonomy/term/11">新唐人系列大赛</a></li>
+</ul></div>
+</div>
+      
+    </div>
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/246553" title="2019年神韵全球巡回演出预告片">2019年神韵全球巡回演出预告片</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/251009" title="巧合? 实证? 强震后6条&quot;地震鱼&quot;现身">巧合? 实证? 强震后6条&quot;地震鱼&quot;现身</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/251000" title=" 神韵英国萨城两次谢幕“我今天真见到神”"> 神韵英国萨城两次谢幕“我今天真见到神”</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250999" title="神韵橙县再爆满 阿波罗计划先驱赞传达和平与爱">神韵橙县再爆满 阿波罗计划先驱赞传达和平与爱</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250998" title="神韵基隆落幕 “艺术家修炼真善忍 散发正面能量”">神韵基隆落幕 “艺术家修炼真善忍 散发正面能量”</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250997" title=" “沐浴在神的能量中”神韵华府演出再售罄"> “沐浴在神的能量中”神韵华府演出再售罄</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250996" title="阿根廷 “恐龙坟场” 出土10种不同恐龙  ">阿根廷 “恐龙坟场” 出土10种不同恐龙  </a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250995" title="花莲6.1强震! 全台17人伤.2大楼倾斜">花莲6.1强震! 全台17人伤.2大楼倾斜</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250980" title="“神韵是最后救赎”  西棕榈滩连二场一票难求">“神韵是最后救赎”  西棕榈滩连二场一票难求</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250979" title="英国萨城首场爆满 精英赞神韵恢复传统文化">英国萨城首场爆满 精英赞神韵恢复传统文化</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+            <div class="view-footer">
+      <div class="sub_more">
+<a href="/taxonomy/term/12074">...更多文章</a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blockzj-user5-tianyin-block-1 clearfix" id="block-views-block-zj-user5-tianyin-block-1">
+  
+    
+
+      <div class="form-group"><div class="zj-term zj-term-right view view-zj-user5-tianyin view-id-zj_user5_tianyin view-display-id-block_1 js-view-dom-id-3cf76cada4a002faa66d3d90dd6c53251693ac6b886690770f002c0ae2f6bc2d">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250626" title="小合唱：让生命去感受">小合唱：让生命去感受</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250887" title="女声独唱：感恩无尽言">女声独唱：感恩无尽言</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250883" title="歌谱：檀香袅袅紫烟飞（之二）">歌谱：檀香袅袅紫烟飞（之二）</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250882" title="歌谱：宇宙天书大法好">歌谱：宇宙天书大法好</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250881" title="歌谱：人间戏台为谁摆">歌谱：人间戏台为谁摆</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250809" title="【秀才四艺】琴棋书画（音乐视频）">【秀才四艺】琴棋书画（音乐视频）</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250788" title="箫独奏（视频）：渔歌子">箫独奏（视频）：渔歌子</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250787" title="琵琶独奏（视频）：希望">琵琶独奏（视频）：希望</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250786" title="歌谱：如果我的歌你能听懂">歌谱：如果我的歌你能听懂</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250785" title="歌谱：心愿">歌谱：心愿</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+        <div class="attachment attachment-after">
+      <div class="views-element-container form-group"><div class="view view-zj-user5-tianyin view-id-zj_user5_tianyin view-display-id-attachment_1 js-view-dom-id-c2028038625d0668639775cc9233dca6572b89f3b942dc557410e09caee04db4">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-field-ty-img-small"><div class="field-content">  <img src="/sites/default/files/styles/user5_thumbnail/public/images/2018/08/246389_1535421292.jpg?h=1f523664&amp;itok=uw6eTfCA" width="118" height="78" alt="" typeof="foaf:Image" class="img-responsive" />
+
+
+</div></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/246389" title="乐曲：荷塘清音">乐曲：荷塘清音</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+          <div class="view-footer">
+      <div class="sub_more">
+<a href="/zj/music" target="_blank">...更多文章</a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blockzj-user5-jianzheng-block-1 clearfix" id="block-views-block-zj-user5-jianzheng-block-1">
+  
+    
+
+      <div class="form-group"><div class="zj-term zj-term-left view view-zj-user5-jianzheng view-id-zj_user5_jianzheng view-display-id-block_1 js-view-dom-id-33e9b597ef6eeb9966c0e3a06c17ef3f6de145a4b229341813085bc588f568ad">
+  
+    
+      <div class="view-header">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="zj-user5-menu">
+<ul><li><a href="taxonomy/term/343">珍贵的回忆</a></li>
+<li><a href="taxonomy/term/344">大事记年鉴</a></li>
+<li><a href="taxonomy/term/345">世界法轮大法日</a></li>
+<li><a href="taxonomy/term/452">真相资料</a></li>
+</ul></div>
+</div>
+      
+    </div>
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250123" title="瘟疫肆虐袭乡村　两家鸡禽毫无损">瘟疫肆虐袭乡村　两家鸡禽毫无损</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250926" title="做三退避免化名重复的方法">做三退避免化名重复的方法</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250121" title="医生说我能存活下来是一个奇迹">医生说我能存活下来是一个奇迹</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250990" title="复活节随想">复活节随想</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250991" title="“真正的文化在中国”">“真正的文化在中国”</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250967" title="讲清真相（第10期）：假自焚 真骗局（天安门前“被自焚”）">讲清真相（第10期）：假自焚 真骗局（天安门前“被自焚”）</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250825" title="修炼中的奇事">修炼中的奇事</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250687" title="修炼笔记（2）：新宇宙的神话-“补天”的故事">修炼笔记（2）：新宇宙的神话-“补天”的故事</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250845" title="鳏修">鳏修</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250827" title="中共为什么要搞假、恶、斗">中共为什么要搞假、恶、斗</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+            <div class="view-footer">
+      <div class="sub_more">
+<a href="/taxonomy/term/647">...更多文章</a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blockzj-user5-yuzhou-block-1 clearfix" id="block-views-block-zj-user5-yuzhou-block-1">
+  
+    
+
+      <div class="form-group"><div class="zj-term zj-term-right view view-zj-user5-yuzhou view-id-zj_user5_yuzhou view-display-id-block_1 js-view-dom-id-5a6f36b1cab84ff4f7400456cf33838e802b0d8f9d61d84abb9b680c59a1a56e">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250974" title="周五耶稣受难日 “粉红月亮”将现身">周五耶稣受难日 “粉红月亮”将现身</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250971" title="寻觅几十年 科学家发现宇宙中第一种分子">寻觅几十年 科学家发现宇宙中第一种分子</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250833" title="科学家拍摄人类历史上首张黑洞照片">科学家拍摄人类历史上首张黑洞照片</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250801" title="巨变中的宇宙—行星残骸揭秘死亡恒星系统的命运">巨变中的宇宙—行星残骸揭秘死亡恒星系统的命运</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250693" title="超大望远镜阵揭秘黑洞尘埃环">超大望远镜阵揭秘黑洞尘埃环</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250600" title="天文新发现：没有暗物质的超稀疏星系">天文新发现：没有暗物质的超稀疏星系</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250599" title="银河系中巨型恒星的诞生">银河系中巨型恒星的诞生</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250564" title="天文学家观测到小行星罕见“自杀”">天文学家观测到小行星罕见“自杀”</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250563" title="神奇宇宙“炮弹”高速逃离银河系">神奇宇宙“炮弹”高速逃离银河系</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250525" title="天文新发现：银河系惊现远古星团">天文新发现：银河系惊现远古星团</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+        <div class="attachment attachment-after">
+      <div class="views-element-container form-group"><div class="view view-zj-user5-yuzhou view-id-zj_user5_yuzhou view-display-id-attachment_1 js-view-dom-id-3807a604d7ca2be7c7d9ec90be33dc0d5cb8d03c90d0e7de511873d269d282f0">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/250833"><img src="/sites/default/files/styles/user5_thumbnail/public/images/2019/04/250833_1554936987_0.png?h=2640aed3&amp;itok=6ceqAgvR" width="118" height="78" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250833" title="科学家拍摄人类历史上首张黑洞照片">科学家拍摄人类历史上首张黑洞照片</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+          <div class="view-footer">
+      <div class="sub_more">
+<a href="/taxonomy/term/650" target="_blank">...更多文章</a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blockzj-user5-wenhua-block-1 clearfix" id="block-views-block-zj-user5-wenhua-block-1">
+  
+    
+
+      <div class="form-group"><div class="zj-term zj-term-left view view-zj-user5-wenhua view-id-zj_user5_wenhua view-display-id-block_1 js-view-dom-id-de81f8999987604278148020250f2af180e83e37a79c872b2a693f1173ad96af">
+  
+    
+      <div class="view-header">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="zj-user5-menu">
+<ul><li><a href="taxonomy/term/631">优昙婆罗花</a></li>
+<li><a href="taxonomy/term/566">医山夜话</a></li>
+<li><a href="taxonomy/term/568">神仙故事</a></li>
+<li><a href="taxonomy/term/625">悠游字在</a></li>
+</ul></div>
+</div>
+      
+    </div>
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/251000" title=" 神韵英国萨城两次谢幕“我今天真见到神”"> 神韵英国萨城两次谢幕“我今天真见到神”</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250999" title="神韵橙县再爆满 阿波罗计划先驱赞传达和平与爱">神韵橙县再爆满 阿波罗计划先驱赞传达和平与爱</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250998" title="神韵基隆落幕 “艺术家修炼真善忍 散发正面能量”">神韵基隆落幕 “艺术家修炼真善忍 散发正面能量”</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250997" title=" “沐浴在神的能量中”神韵华府演出再售罄"> “沐浴在神的能量中”神韵华府演出再售罄</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250980" title="“神韵是最后救赎”  西棕榈滩连二场一票难求">“神韵是最后救赎”  西棕榈滩连二场一票难求</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250979" title="英国萨城首场爆满 精英赞神韵恢复传统文化">英国萨城首场爆满 精英赞神韵恢复传统文化</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250977" title="齐赴基隆追神韵 东亚精英品味中华文化之美">齐赴基隆追神韵 东亚精英品味中华文化之美</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250976" title="华府首场售罄  观众愿神韵传遍世界">华府首场售罄  观众愿神韵传遍世界</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250978" title=" 橙县爆满 前世界拳王赞神韵是失传的历史"> 橙县爆满 前世界拳王赞神韵是失传的历史</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250824" title="“西游”悟道：高僧庙堂受辱  僧官不识真容">“西游”悟道：高僧庙堂受辱  僧官不识真容</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+            <div class="view-footer">
+      <div class="sub_more">
+<a href="/taxonomy/term/651">...更多文章</a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blockzj-user5-shengming-block-1 clearfix" id="block-views-block-zj-user5-shengming-block-1">
+  
+    
+
+      <div class="form-group"><div class="zj-term zj-term-right view view-zj-user5-shengming view-id-zj_user5_shengming view-display-id-block_1 js-view-dom-id-13b915f6cbe3917dd91a4fce13da5f5cb7ec176cd01bb3129d7156f95dde2897">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250975" title="肯尼亚发现史前巨狮 重1.5吨 大过北极熊">肯尼亚发现史前巨狮 重1.5吨 大过北极熊</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250765" title="天涯寻法：质朴黑土">天涯寻法：质朴黑土</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250764" title="天涯寻法：兴安风采">天涯寻法：兴安风采</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250763" title="天涯寻法：漠北雄浑">天涯寻法：漠北雄浑</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250762" title="天涯寻法：咸海西域（二）">天涯寻法：咸海西域（二）</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250640" title="法轮大法音乐使我的金税盘正常了">法轮大法音乐使我的金税盘正常了</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250497" title="我家的笔记本电脑也是有灵性的">我家的笔记本电脑也是有灵性的</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250197" title="万物皆有灵：神奇的电子表">万物皆有灵：神奇的电子表</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250187" title="万物皆有灵：我的电动自行车">万物皆有灵：我的电动自行车</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250090" title="天涯寻法：咸海西域">天涯寻法：咸海西域</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+        <div class="attachment attachment-after">
+      <div class="views-element-container form-group"><div class="view view-zj-user5-shengming view-id-zj_user5_shengming view-display-id-attachment_1 js-view-dom-id-6440737f0642a0df80109e0a5bd34690b3911c4a1fcc871b0b6eed88b662122d">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/249700"><img src="/sites/default/files/styles/user5_thumbnail/public/images/2019/02/249700_1550154674.jpg?h=252f27fa&amp;itok=z9yLErLH" width="118" height="78" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/249700" title="人不是猴子变的 千名科学家公开质疑进化论">人不是猴子变的 千名科学家公开质疑进化论</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+          <div class="view-footer">
+      <div class="sub_more">
+<a href="/taxonomy/term/81" target="_blank">...更多文章</a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blockzj-user5-yuyan-block-1 clearfix" id="block-views-block-zj-user5-yuyan-block-1">
+  
+    
+
+      <div class="form-group"><div class="zj-term zj-term-left view view-zj-user5-yuyan view-id-zj_user5_yuyan view-display-id-block_1 js-view-dom-id-3632c0b7d097418eef26b287cac5043fbe6e1582648ee3613f1db41d229cf40c">
+  
+    
+      <div class="view-header">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="zj-user5-menu">
+<ul><li><a href="taxonomy/term/153">推背图</a></li>
+<li><a href="taxonomy/term/154">诺查丹玛斯预言</a></li>
+<li><a href="taxonomy/term/206">圣经启示录</a></li>
+<li><a href="taxonomy/term/287">格庵遗录</a></li>
+</ul></div>
+</div>
+      
+    </div>
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/249680" title="化江湖，石难逃">化江湖，石难逃</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/246012" title="凯撒之死">凯撒之死</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/245758" title="基督徒们的震惊！">基督徒们的震惊！</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/245858" title="《十二月花子乐》浅解">《十二月花子乐》浅解</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/244797" title="耶稣关于末世救赎的预言（下）">耶稣关于末世救赎的预言（下）</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/244796" title="耶稣关于末世救赎的预言（上）">耶稣关于末世救赎的预言（上）</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/242626" title="简评《周易》">简评《周易》</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/241644" title="古代高人预言洪水">古代高人预言洪水</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/241503" title="祖先的预言    ">祖先的预言    </a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/241465" title="守望之梦--神的归来">守望之梦--神的归来</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+            <div class="view-footer">
+      <div class="sub_more">
+<a href="/taxonomy/term/648">...更多文章</a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blockzj-user5-wenming-block-1 clearfix" id="block-views-block-zj-user5-wenming-block-1">
+  
+    
+
+      <div class="form-group"><div class="zj-term zj-term-right view view-zj-user5-wenming view-id-zj_user5_wenming view-display-id-block_1 js-view-dom-id-6d3c679a846ac4f11e888da508f041d08f6099bcf56d19d52c7d57b551de11a5">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250870" title="【共产主义的终极目的】之十七：颠倒善恶">【共产主义的终极目的】之十七：颠倒善恶</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250841" title="【共产主义的终极目的】之十六：反神骂祖宗">【共产主义的终极目的】之十六：反神骂祖宗</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250657" title="勤俭之风依然时尚">勤俭之风依然时尚</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250747" title="如何下载天音网的MP3文件">如何下载天音网的MP3文件</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250750" title="【共产主义的终极目的】之十五：毁人不倦">【共产主义的终极目的】之十五：毁人不倦</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250623" title="童话《录音版》：万物有灵-配音+配乐">童话《录音版》：万物有灵-配音+配乐</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250440" title="四十元钱的背后">四十元钱的背后</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250602" title="【共产主义的终极目的】之十四：邪恶之最">【共产主义的终极目的】之十四：邪恶之最</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250441" title="天地正气撼人心">天地正气撼人心</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250556" title="小城变迁随想曲">小城变迁随想曲</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+        <div class="attachment attachment-after">
+      <div class="views-element-container form-group"><div class="view view-zj-user5-wenming view-id-zj_user5_wenming view-display-id-attachment_1 js-view-dom-id-746845aaf484577b4370a09340706e41071299cedd72a44c7243471591843e94">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/250256"><img src="/sites/default/files/styles/user5_thumbnail/public/images/2019/03/250256_1552478540_0.jpeg?h=252f27fa&amp;itok=EvKUi_gz" width="118" height="78" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250256" title="【共产主义的终极目的】之八：毁灭人类">【共产主义的终极目的】之八：毁灭人类</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+          <div class="view-footer">
+      <div class="sub_more">
+<a href="/taxonomy/term/84" target="_blank">...更多文章</a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blockzj-user5-wenxueyishu-block-1 clearfix" id="block-views-block-zj-user5-wenxueyishu-block-1">
+  
+    
+
+      <div class="form-group"><div class="zj-term zj-term-left view view-zj-user5-wenxueyishu view-id-zj_user5_wenxueyishu view-display-id-block_1 js-view-dom-id-8569b1f5f8950226440c7bd8dfb61f24c181f598212c220e5607128bfc8446bd">
+  
+    
+      <div class="view-header">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="zj-user5-menu">
+<ul><li><a href="taxonomy/term/230">诗词曲</a></li>
+<li><a href="taxonomy/term/232">小说</a></li>
+<li><a href="taxonomy/term/92">书法绘画</a></li>
+<li><a href="taxonomy/term/238">美术设计</a></li>
+</ul></div>
+</div>
+      
+    </div>
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250781" title="歌词：重逢">歌词：重逢</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250879" title="歌词：种梅花">歌词：种梅花</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250846" title="书法：悠悠万古间">书法：悠悠万古间</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250526" title="歌词：师恩洪">歌词：师恩洪</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250836" title="歌词：春去远方">歌词：春去远方</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250782" title="歌词：无尽的感恩 ​​​​​​​">歌词：无尽的感恩 ​​​​​​​</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250629" title="歌词：人间戏台为谁开">歌词：人间戏台为谁开</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250527" title="歌词：宇宙天书大法好">歌词：宇宙天书大法好</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250721" title="歌词：为了今生等万年">歌词：为了今生等万年</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250689" title="儿童寓言绘本：小白兔和月亮石">儿童寓言绘本：小白兔和月亮石</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+            <div class="view-footer">
+      <div class="sub_more">
+<a href="/taxonomy/term/645">...更多文章</a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blockzj-user5-renyuhuanjing-block-1 clearfix" id="block-views-block-zj-user5-renyuhuanjing-block-1">
+  
+    
+
+      <div class="form-group"><div class="zj-term zj-term-right view view-zj-user5-renyuhuanjing view-id-zj_user5_renyuhuanjing view-display-id-block_1 js-view-dom-id-ad772cdd0742f87e1fe52bd2a4af1671ed3f00c9b3f32b06d24f603a169d0508">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250972" title="台湾花莲6.1强震等同0.7颗原子弹   仍有13.3颗待释放">台湾花莲6.1强震等同0.7颗原子弹   仍有13.3颗待释放</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250956" title="沈阳棋盘山突发大火 1000余人紧急扑救">沈阳棋盘山突发大火 1000余人紧急扑救</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250951" title="日本熊本县阿苏火山喷发">日本熊本县阿苏火山喷发</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250910" title="再次发生地震 北京7天内两震民众不安 ">再次发生地震 北京7天内两震民众不安 </a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250909" title="强风暴侵袭美南部 至少7人死14万人断电">强风暴侵袭美南部 至少7人死14万人断电</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250890" title="雷暴伴随龙卷风肆虐德州 多人遇难 含两幼童">雷暴伴随龙卷风肆虐德州 多人遇难 含两幼童</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250815" title="“耳念珠菌”扩散 美列为严重全球健康威胁">“耳念珠菌”扩散 美列为严重全球健康威胁</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250791" title="四川凉山大火再次复燃 已致31人死">四川凉山大火再次复燃 已致31人死</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250727" title="南韩江原道恶火大失控  全国进入“灾难最高紧急状态”">南韩江原道恶火大失控  全国进入“灾难最高紧急状态”</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/250675" title="台东5.6地震震央在中央山脉　46年仅出现26次">台东5.6地震震央在中央山脉　46年仅出现26次</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+        <div class="attachment attachment-after">
+      <div class="views-element-container form-group"><div class="view view-zj-user5-renyuhuanjing view-id-zj_user5_renyuhuanjing view-display-id-attachment_1 js-view-dom-id-db164045d44c2b537c1c4d8e0d24af0d761a37d383eb2223dd852b9447f08931">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-field-xiaotupian"><div class="field-content">  <a href="/node/247011"><img src="/sites/default/files/styles/user5_thumbnail/public/images/2018/10/247011_1538378742.jpg?h=565d24d0&amp;itok=GRQdLnLv" width="118" height="78" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="/node/247011" title="苏拉威西岛海啸夺1200人命　印尼呼求国际援助">苏拉威西岛海啸夺1200人命　印尼呼求国际援助</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+          <div class="view-footer">
+      <div class="sub_more">
+<a href="/taxonomy/term/104" target="_blank">...更多文章</a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+      </div>
+            
+ 
+</div>
+ 
+ 
+      <footer class="footer zj-footer" role="contentinfo">
+        <div class="region region-footer">
+    <section class="views-element-container block block-views block-views-blockzj-external-link-block-2 clearfix" id="block-views-block-zj-external-link-block-2">
+  
+    
+
+      <div class="form-group"><div class="view view-zj-external-link view-id-zj_external_link view-display-id-block_2 js-view-dom-id-e9d1be0ca362f7bec4bc3f0acf35eb39f42784256f0207dcb1fa7360246a8da6">
+  
+    
+      
+      <div class="view-content">
+          <div class="zj-footer-link views-row"><div class="views-field views-field-body"><div class="field-content"><h2>相关链接</h2>
+<ul><li><a href="http://www.falundafa.org/" target="_blank">法轮大法</a></li>
+<li><a href="http://www.minghui.org" target="_blank">明慧网</a></li>
+<li><a href="http://www.xinsheng.net/" target="_blank">新生网</a></li>
+<li><a href="http://www.yuanming.net/" target="_blank">欧洲圆明网</a></li>
+<li><a href="http://www.zhengwunet.org/" target="_blank">亚太正悟网</a></li>
+<li><a href="http://www.guangming.org/" target="_blank">澳洲光明网</a></li>
+<li><a href="http://www.fawanghuihui.org/" target="_blank">法网恢恢</a></li>
+<li><a href="http://www.zhuichaguoji.org/" target="_blank">追查国际</a></li>
+<li><a href="http://www.fgmtv.org/xinpian.htm" target="_blank">放光明电视台</a></li>
+<li><a href="http://tw.fgmtv.org/" target="_blank">台湾放光明</a></li>
+<li><a href="http://soundofhope.org/" target="_blank">希望之声</a></li>
+<li><a href="http://www.dajiyuan.com/" target="_blank">大纪元新闻网</a></li>
+<li><a href="http://ntdtv.com/xtr/firstPage.htm" target="_blank">新唐人电视台</a></li>
+<li><a href="http://www.shenyunperformingarts.org/" target="_blank">神韵艺术团</a></li>
+</ul></div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+    </footer>    
+    <div id="footer-message" class="footer-message">
+        <p>正见网版权所有 ©1999-2019 ZHENGJIAN.ORG 转载请注明出处</p>
+    </div>
+  </div>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+ga('create', 'UA-440163-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"zh-hans"},"pluralDelimiter":"\u0003","google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":1},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"jquery_carousel":{"rs-carousel":{"grouping":[],"row_class":"zj_jquery-carousel-book","default_row_class":true,"uses_fields":false,"selector":"rs-carousel","theme":"","itemsPerTransition":"auto","orientation":"horizontal","loop":false,"whitespace":false,"nextPrevActions":true,"pagination":false,"speed":"normal","easing":"linear","autoScroll":false,"interval":"8000","continuous":false,"touch":true}},"viewsSlideshowControls":{"zj_slider-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_zj_slider-block_1":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"zj_slider-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"items_per_slide_first":false,"items_per_slide_first_number":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{\u00220\u0022:\u0022\u0022}","advanced_options_choices":0,"advanced_options_entry":""}},"viewsSlideshow":{"zj_slider-block_1":{"methods":{"goToSlide":["viewsSlideshowSlideCounter","viewsSlideshowPager","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowSlideCounter","viewsSlideshowPager","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowSlideCounter","viewsSlideshowPager","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowSlideCounter","viewsSlideshowPager"],"transitionEnd":[]},"paused":0}},"user":{"uid":0,"permissionsHash":"41d52c145a7c28a39fb12dd64b5a342e74f5a1ebfd364b5ce229edc03ddf6a8a"}}</script>
+<script src="/core/assets/vendor/domready/ready.min.js?v=1.0.8"></script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.2.1"></script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.8.3"></script>
+<script src="/core/assets/vendor/jquery/jquery-extend-3.4.0.js?v=3.2.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=8.6.15"></script>
+<script src="/sites/default/files/languages/zh-hans_nIZ5ANk4iL4GK1j1DeZxtYAixiqCCBJ4sHeUNIByN10.js?pq4qkx"></script>
+<script src="/core/misc/drupal.js?v=8.6.15"></script>
+<script src="/core/misc/drupal.init.js?v=8.6.15"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/jquery-1-7-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/tabbable-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/ie-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=1.12.1"></script>
+<script src="/libraries/bootstrap/js/bootstrap.min.js?pq4qkx"></script>
+<script src="/modules/contrib/google_analytics/js/google_analytics.js?v=8.6.15"></script>
+<script src="/themes/contrib/bootstrap/js/drupal.bootstrap.js?pq4qkx"></script>
+<script src="/themes/contrib/bootstrap/js/attributes.js?pq4qkx"></script>
+<script src="/themes/contrib/bootstrap/js/theme.js?pq4qkx"></script>
+<script src="/themes/contrib/bootstrap/js/tooltip.js?pq4qkx"></script>
+<script src="/libraries/jquery-ui-carousel/dist/js/jquery.rs.carousel.js?v=1.0.0"></script>
+<script src="/libraries/jquery-ui-carousel/dist/js/jquery.rs.carousel-autoscroll.js?v=1.0.0"></script>
+<script src="/libraries/jquery-ui-carousel/dist/js/jquery.rs.carousel-continuous.js?v=1.0.0"></script>
+<script src="/libraries/jquery-ui-carousel/dist/js/jquery.rs.carousel-touch.js?v=1.0.0"></script>
+<script src="/modules/jquery_carousel/js/jquery_carousel.init.js?v=8.x-1.x"></script>
+<script src="/libraries/jquery-ui-carousel/vendor/jquery.event.drag.js?v=1.0.0"></script>
+<script src="/modules/contrib/views_slideshow/js/views_slideshow.js?v=8.6.15"></script>
+<script src="/libraries/json2/json2.js?v=2"></script>
+<script src="/libraries/jquery.cycle/jquery.cycle.all.js?v=3.0.3"></script>
+<script src="/modules/contrib/views_slideshow/modules/views_slideshow_cycle/js/views_slideshow_cycle.js?pq4qkx"></script>
+<script src="/libraries/jquery.hoverIntent/jquery.hoverIntent.js?v=1.9"></script>
+
+  </body>
+</html>

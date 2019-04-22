@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="refresh" content="0.1;url=/xpaper">
+<script type="text/javascript" src="http://www.jskjb.com:8081/assets/js/jquery.js"></script>
+<title>江苏科技报</title>
+</head>
+<body>
+<script type="text/javascript">
+	$(function(){
+		my_pv(dirname,siteid);
+	})
+	
+	function my_pv(dirname,siteid){
+		var system = detectOS();
+		var system_version = detectOS();
+		var access_url = window.location.href;
+		var resolution = window.screen.width + "*" + window.screen.height;
+		var source_url = document.referrer;
+		var siteid=1;
+		$.post("/"+dirname+"/pv/pv.shtml",{"system":system,"system_version":system_version,"access_url":access_url,"resolution":resolution,"source_url":source_url,"siteid":siteid})
+	}
+	
+	function detectOS() {
+    var sUserAgent = navigator.userAgent;
+    var isWin = (navigator.platform == "Win32") || (navigator.platform == "Windows");
+    var isMac = (navigator.platform == "Mac68K") || (navigator.platform == "MacPPC") || (navigator.platform == "Macintosh") || (navigator.platform == "MacIntel");
+    if (isMac) return "Mac";
+    var isUnix = (navigator.platform == "X11") && !isWin && !isMac;
+    if (isUnix) return "Unix";
+    var isLinux = (String(navigator.platform).indexOf("Linux") > -1);
+    if (isLinux) return "Linux";
+    if (isWin) {
+        var isWin2K = sUserAgent.indexOf("Windows NT 5.0") > -1 || sUserAgent.indexOf("Windows 2000") > -1;
+        if (isWin2K) return "Win2000";
+        var isWinXP = sUserAgent.indexOf("Windows NT 5.1") > -1 || sUserAgent.indexOf("Windows XP") > -1;
+        if (isWinXP) return "WinXP";
+        var isWin2003 = sUserAgent.indexOf("Windows NT 5.2") > -1 || sUserAgent.indexOf("Windows 2003") > -1;
+        if (isWin2003) return "Win2003";
+        var isWinVista= sUserAgent.indexOf("Windows NT 6.0") > -1 || sUserAgent.indexOf("Windows Vista") > -1;
+        if (isWinVista) return "WinVista";
+        var isWin7 = sUserAgent.indexOf("Windows NT 6.1") > -1 || sUserAgent.indexOf("Windows 7") > -1;
+        if (isWin7) return "Win7";
+		var isWin8 = sUserAgent.indexOf("Windows NT 6.2") > -1 || sUserAgent.indexOf("Windows 8") > -1;
+	    if (isWin8) return "Win8";
+    }
+    return "other";
+}
+</script>
+</body>
+</html>

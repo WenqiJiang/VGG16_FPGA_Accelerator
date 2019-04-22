@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>中国环境-404</title>
+<link rel="stylesheet" href="../images/base.css" />
+<link rel="stylesheet" href="../images/tongyong.css" />
+<style>
+html{width:100%;height:100%;background:url(/images/public_404_bg.png) no-repeat center bottom #c9f5fe;}
+</style>
+<script src="../images/jquery-1.12.3.min.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?700495e22755109cf765268671cea53b";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body style="padding-top:40px;">
+<div class="public_404_container">
+    <div class="nr_404">
+        <div class="nr_404_top">
+            <a class="logo_404" href="#"><img src="../images/public_404_logo.png" /></a>
+            <ul class="nav_404">
+                <li><a href="../">首页</a></li>
+                <li><a href="https://www.cenews.com.cn/news/">要闻</a></li>
+                <li><a href="https://www.cenews.com.cn/legal/">法治</a></li>
+                <li><a href="https://www.cenews.com.cn/opinion/">评论</a></li>
+                <li><a href="https://www.cenews.com.cn/leader/">领导</a></li>
+                <li><a href="https://www.cenews.com.cn/environment/">环境质量</a></li>
+                <li><a href="https://www.cenews.com.cn/company/">企业</a></li>
+                <li><a href="https://www.cenews.com.cn/pollution_ctr/">治污专家</a></li>
+                <li><a href="https://www.cenews.com.cn/newpos/">新坐标</a></li>
+                <li><a href="https://www.cenews.com.cn/art/">艺文志</a></li>
+                <li><a href="https://cebbs.cenews.com.cn/">两山论坛</a></li>
+                <li><a href="https://www.cenews.com.cn/public/">舆情</a></li>
+            </ul>
+            <div class="clear"></div>
+            <div class="ico_404">
+                <img src="../images/public_404_ico.png" />
+            </div>
+            <div class="alert_404">
+                <p class="alert_404_txt">很遗憾，您访问的页面找不到了...</p>
+                <p class="num_p"><span class="color second">5</span> 秒后跳转到上一页，如没有跳转，请 <a class="color"  href="javascript:history.go(-1);">点击这里</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$(function(){
+var timerc=6;
+var $a_yzm=$(".second");
+function show_time(){
+	--timerc; 
+	if(timerc>=0){	
+$a_yzm.html(timerc);		
+setTimeout(show_time,1000); 
+}else{
+	window.history.back(-1);
+	}
+}
+show_time();	
+	});
+
+</script>
+</body>
+</html>

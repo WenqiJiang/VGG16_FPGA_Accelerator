@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Wikispaces</title>
+<meta name="description" content="Wikispaces site closed page">
+<meta name="viewport" content="width=device-width">
+<link rel="apple-touch-icon" sizes="144x144" href="logo-144.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="logo-114.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="logo-72.png" />
+<link rel="apple-touch-icon" href="logo-57.png" />
+<link rel="stylesheet" href="wikispaces.css" type="text/css" />
+</head>
+<body class="WikispacesBs3"><a href="#WikiContent" class="hidden sr-only sr-only-focusable">Skip to main content</a>   
+  <header class="header" id="top-bar">
+    <nav>
+      <a href="//www.wikispaces.com/" class="wiki-logo ws-track" data-track="Theme/LogoLink"><img src="wiki-logo.png" alt="Logo"></a>
+      <a href="#" class="mobile-menu-trigger" alt="Logo"><i class="fa fa-navicon"></i></a>
+    </nav>
+    <div class="mobile-menu visible-xs">
+      <a href="//www.wikispaces.com/" class="ws-track" data-track="Theme/AboutLink" data-track-props="{ldelim}&quot;position&quot;: &quot;mobile&quot;{rdelim}">About</a> 
+    </div>
+  </header>
+<main role="main">
+      <div class="contentBox"><div class="innerContentBox" id="WikiContent"><div class="WikispacesContent">
+<div class="hero-select">
+    <h2>We are sorry, but the site you are looking for no longer exists</h2>
+    <div class="container">
+        <div class="box box-edu">
+          <p>&nbsp;</p>
+            <p>Wikispaces was founded in 2005 and has since been used by educators, companies and individuals across the globe. </p>
+            <p>Unfortunately, the time has come where we have had to make the difficult business decision to end the Wikispaces service.</p>
+              <p>&nbsp;</p>
+              <p>We first announced the site closure in January 2018, through a site-wide banner that appeared to all logged-in users and needed to be clicked on to dismiss</p>
+              <p>During the closure period a range of banners were shown to users, including a countdown banner in the final month. Additionally, the home page of Wikispaces.com became a blog, detailing the reasons for the closure. Private Label Site Administrators were contacted separately regarding the closure</p>
+            <p>&nbsp;</p>
+              <p>&nbsp;</p>
+            <table style="float: right;" border="2">
+            <tbody>
+            <tr>
+              <th> Wikispaces Tier</th>
+              <th> Closedown Date</th>
+            </tr>
+            <tr>
+            <td>Classroom and Free Wikis end of service</td>
+            <td>31st July 2018</td>
+            </tr>
+            <tr>
+            <td>Plus and Super Wikis end of service</td>
+            <td>30th September 2018</td>
+            </tr>
+            <tr>
+            <td>Private Label Wikis end of service</td>
+            <td>31st January 2019</td>
+            </tr>
+            </tbody>
+            </table>
+            <p>&nbsp;</p>
+            
+        </div>
+        <div class="or"></div>
+        <div class="box box-wiki">
+          <p>&nbsp;</p>
+          <p><strong>Why has Wikispaces closed?</strong></p>
+          <p>&nbsp;</p>
+            <p>Approximately 18 months ago, we completed a technical review of the infrastructure and software we used to serve Wikispaces users. As part of the review, it became apparent that the required investment to bring the infrastructure and code in line with modern standards was very substantial. We explored all possible options for keeping Wikispaces running but had to conclude that it was no longer viable to continue to run the service in the long term. So, sadly, we had to close the site - but we have been touched by the messages from users all over the world who began creating wikis with it and now running them on new platforms.</p>
+          <p>&nbsp;</p>
+        </div>
+    </div>
+    <p>&nbsp;</p><p>&nbsp;</p>
+ <h3><p>We would like to take this opportunity to thank you for your support over the years.</p>
+<p>The Wikispaces team</p></h3>
+</div>
+</div></div></div><div id="sentinel" style="clear:both"></div>    
+</main>
+    <footer class="footer">
+      <div class="container">
+        <div class="col-md-3 col-xs-6">
+          <img src="wiki-logo.png" alt="" class="footer-logo">
+        </div>
+        <div class="col-md-3 col-xs-6 wiki-address">
+          <p>
+          </p>
+        </div>
+      </div>
+      <div class="footer-menu">
+        <div class="container">
+          <nav class="col-sm-8"> 
+            <a href="//www.tes.com/">TES</a>
+          </nav>
+          <p class="copyright col-sm-4">Copyright 2019 Tangient LLC</p>
+        </div>
+      </div>
+    </footer>
+</div>
+</body>
+</html>

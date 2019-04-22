@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>EarthEcho International | Environmental media and education, in honor of Philippe Cousteau Sr. | EarthEcho International</title>
+	<meta name="description" content="Environmental media and education, in honor of Philippe Cousteau Sr.">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:700,400,400italic,700italic|Open+Sans:300italic,400italic,700italic,400,700,300" rel="stylesheet" type="text/css">
+	<link href="/assets/compiled/css/application.css?v=1546641380" rel="stylesheet">
+	<script src="/assets/javascripts/vendor/modernizr.js?v=1381248513"></script>
+	<script src="/assets/javascripts/vendor/jquery.min.js?v=1381270772"></script>
+	<script src="/assets/javascripts/vendor/selectivizr.min.js?v=1381177504"></script>
+</head>
+<body class="page--home">
+	
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5CXQD6"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5CXQD6');</script>
+	
+
+	<div class="page__container">
+
+		<header class="page__header">
+			<div class="wrap">
+
+				<nav class="nav-container" aria-label="Main Navigation">
+					<a href="#main" class="nav-skip-link">Skip to Main Content</a>
+					<a href="/" class="nav-logo">
+						<img
+							src="/assets/images/content/logo--main-1x.png"
+							srcset="
+								/assets/images/content/logo--main-1x.png 1x,
+								/assets/images/content/logo--main-2x.png 2x"
+							class="nav-logo--main"
+							alt="EarthEcho Logo">
+						<img
+							src="/assets/images/content/logo--mobile-1x.png"
+							srcset="
+								/assets/images/content/logo--mobile-1x.png 1x,
+								/assets/images/content/logo--mobile-2x.png 2x"
+							class="nav-logo--mobile"
+							alt="EarthEcho Logo">
+						<h1 class="hide-text">EarthEcho International</h1>
+					</a>
+
+					<button class="nav-btn">
+						<span class="nav-btn__hamburger"></span>
+						<span class="hide-text">Toggle Menu</span>
+					</button>
+
+					<div class="nav-drawer">
+						<div class="nav--main">
+							<ul>
+								<li class="nav-item--expeditions">
+									<button>Programs</button>
+									<ul>
+										<li>
+											<a href="http://www.monitorwater.org/" target="_blank">
+												EarthEcho Water Challenge
+											</a>
+										</li>
+										<li>
+											<a href="/expeditions">
+												Expeditions
+											</a>
+										</li>
+										<li>
+											<a href="http://www.stemexplore.org" target="_blank">
+												STEMExplore
+											</a>
+										</li>
+										<li>
+											<a href="/programs/youth-leadership-council">
+												Youth Leadership Council
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item--resources">
+									<a href="/educator-resources">Educator Resources</a>
+								</li>
+								<li class="nav-item--about">
+									<a href="/about">About</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="nav--toolbar">
+							<ul>
+																	<li class="nav-item--register">
+										<a href="/register-login">Register/Login</a>
+									</li>
+																<li class="nav-item--contact">
+									<a href="/contact">Contact Us</a>
+								</li>
+								<li class="nav-item--donation">
+									<a href="/donate">Donate</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<div class="page__main" role="main" id="main">
+			
+
+		<div class="hero">
+			<div class="hero__photo"></div>
+		</div>
+
+		<main class="home-content">
+			<div class="banner">
+				<div class="banner__section--primary">
+					<h2 class="banner__section--primary__text">EarthEcho International believes youth have the power to change our planet.<br />
+</h2>
+					<p>EarthEcho International is a nonprofit organization founded on the belief that youth have the power to change our planet. Established by siblings Philippe and Alexandra Cousteau in honor of their father Philippe Cousteau Sr., and grandfather legendary explorer Jacques-Yves Cousteau, our mission is to inspire young people worldwide to act now for a sustainable future.</p>
+					<a href="/about" class="link--orange link--titillium button__arrow--right">Learn More About EarthEcho</a>
+				</div>
+									<div class="banner__section--secondary">
+						<p class="banner__section--secondary__title">Teachers in England, adventure with us! Apply to join EarthEcho Expedition: What's the Catch?</p>
+						<p>EarthEcho Expeditions is an annual program that leverages the rich Cousteau legacy of exploration and discovery to bring Science, Technology, Engineering and Mathematics (STEM) education alive for today&rsquo;s 21st-century learners and their educators. Expeditions are grounded in current real-world issues that combine adventure, exploration, and engaging instruction to provide students with the tools they need to address today&rsquo;s increasingly complex and changing environment, starting in their own communities.&nbsp; August 27-31st, 2019, we are inviting 25 secondary teachers from England to join us as Expedition Fellows to Plymouth, England! Don&#39;t miss the deadline, apply before April,&nbsp;30, 2019!</p>
+																					<a href="https://docs.google.com/forms/d/e/1FAIpQLSf9aaYX321nAUvR52g98kyr4E9O_YuO4ddvXFl8cJubJKeXPg/viewform" class="link--white link--titillium link--inline button__arrow--right">Learn more and apply</a>
+																		</div>
+							</div>
+
+			<section class="focus-areas">
+				<div class="focus-areas__description">
+					<p class="focus-areas__description__text">EarthEcho’s programs are developed for and by youth. All of our resources are designed to equip new generations of leaders and problem solvers to identify and tackle environmental challenges in their own communities and beyond. Our work is focused in three main areas:</p>
+				</div>
+				
+					<section class="focus-areas__section">
+						<div class="content">
+							<div class="content__left">
+								<h3 class="content__title">Inspiration</h3>
+								<div class="content__text-box">
+									<p>EarthEcho&rsquo;s&nbsp;STEMExplore&nbsp;highlights relatable voices and exciting life experiences to make careers in Science, Technology, Engineering and Math (STEM) come alive. STEMExplore kindles youth interest in solving problems and becoming critical thinkers about the world around them. The program features a series of interactive videos profiling STEM experts and thought leaders from around the world, meeting a critical need by fostering the next generation of STEM professionals.</p>
+									<p><a href="https://www.stemexplore.org/" class="link--orange link--titillium button__arrow--right">Learn More</a></p>
+								</div>
+							</div>
+
+							<div class="content__right">
+								<div class="content__images">
+							  		<div class="image" style="background-image:url('https://earthecho.org/uploads/images/general/homepage__inspiration-portrait.jpg');">
+							  			<div class="image__padding"></div>
+							  		</div>
+									<div class="image" style="background-image:url('https://earthecho.org/uploads/images/general/homepage__inspiration-landscape.jpg');">
+							  			<div class="image__padding"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				
+					<section class="focus-areas__section">
+						<div class="content">
+							<div class="content__left">
+								<h3 class="content__title">Cultivation</h3>
+								<div class="content__text-box">
+									<p>EarthEcho&rsquo;s&nbsp;Youth Leadership Council (YLC)&nbsp;is a platform for today&rsquo;s emerging trailblazers and visionaries in the environmental space. Comprised of 15 diverse leaders from across the country, ages 15-22, each YLC member has demonstrated an ability to engage and mobilize their peers and their communities to change the world. Through EarthEcho&rsquo;s platforms, YLC members are empowered to develop programs and conduct outreach to youth around the world.</p>
+									<p><a href="/ylc" class="link--orange link--titillium button__arrow--right">Learn More</a></p>
+								</div>
+							</div>
+
+							<div class="content__right">
+								<div class="content__images">
+							  		<div class="image" style="background-image:url('https://earthecho.org/uploads/images/general/homepage__cultivation-portrait.jpg');">
+							  			<div class="image__padding"></div>
+							  		</div>
+									<div class="image" style="background-image:url('https://earthecho.org/uploads/images/general/homepage__cultivation-landscape.jpg');">
+							  			<div class="image__padding"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				
+					<section class="focus-areas__section">
+						<div class="content">
+							<div class="content__left">
+								<h3 class="content__title">Activation</h3>
+								<div class="content__text-box">
+									<p>The&nbsp;EarthEcho Water Challenge&nbsp;is&nbsp;an international program that equips anyone to combat the global water crisis starting in their own communities. Through the simple acts of testing their local water, sharing the results, and taking action to restore and protect this resource, anyone can play a critical role in ensuring the overall health of the environment and our communities.&nbsp; In addition,&nbsp;EarthEcho Expedition&nbsp;provides exciting&nbsp;Web-based video content, classroom materials, and community action guides that put the tools of change at the fingertips of young environmental champions anywhere, anytime.</p>
+									<p><a href="http://www.monitorwater.org" class="link--orange link--titillium button__arrow--right">Learn More</a></p>
+								</div>
+							</div>
+
+							<div class="content__right">
+								<div class="content__images">
+							  		<div class="image" style="background-image:url('https://earthecho.org/uploads/images/general/homepage__activation-portrait.jpg');">
+							  			<div class="image__padding"></div>
+							  		</div>
+									<div class="image" style="background-image:url('https://earthecho.org/uploads/images/general/homepage__activation-landscape.jpg');">
+							  			<div class="image__padding"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				
+			</section>
+		</main>
+
+		
+			<section class="section--upcoming-event">
+
+				<div class="section__content">
+					<article class="article--highlight">
+						<header class="article__header">
+							<h3 class="article__title">
+								<sup>Upcoming Event <span class="hide-text">|</span></sup>
+								<em>Marine Mammals and Plastic Pollution Virtual Field Trip</em> 
+							</h3>
+						</header>
+						<div class="article__content">
+							
+
+							<div class="article__text">
+								<p>
+									&nbsp;&nbsp;Panelist &nbsp; &nbsp;&nbsp;Classroom Resources &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Science Standards &nbsp;  Register 
+
+&nbsp;
+
+Join EarthEcho International and the Marine Mammal Foundation of Australia for an engaging 45-minute virtual field trip.&nbsp; Learn more from Dr. Kate Charlton-Rob, the Executive Director of MMF and&nbsp;Head of Research as she tells us more about the unique marine mammals of Australia and the impacts plastic has of them.&nbsp;&hellip;
+								</p>
+								<a href="/news/marine-mammals-and-plastic-pollution-virtual-field-trip" class="button--teal article__button float--right">Learn More</a>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
+		
+
+		<section class="section--educator">
+			<div class="section__content">
+				<div class="section--educator__info">
+					<h3 class="section__title">Educator Resources</h3>
+					<p>Are you a teacher who cares about our water planet and wants to inspire and encourage your students to do the same? You've come to the right place. The Water Planet Challenge will give you the information and materials you need to help your middle and high school students TAKE ACTION to protect and restore our planet's natural resources while teaching to key standards.</p>
+					<a href="/educator-resources" class="button--teal__blank section__button button__arrow--right float--right">Explore more Educator Resources</a>
+				</div>
+
+				
+					<div class="section--educator__featured">
+						<div class="section--educator__featured__content">
+							<h4 class="section--educator__featured-header">Featured Resource</h4>
+							<a href="/educator-resources/stem-career-closeup-kate-charlton-robb">STEM Career Closeup - Kate Charlton-Robb</a>
+						</div>
+						
+							<div class="section--educator__featured__figure__wrap">
+								<img src="/cache/images/made/775406766011caf6/Kate2_130_86_c1.jpg" alt="STEM Career Closeup - Kate Charlton-Robb" class="section--educator__featured__figure">
+							</div>
+						
+					</div>
+				
+			</div>
+		</section>
+
+		<section class="section--mini-articles">
+			<div class="section__content">
+				
+					<div class="span-6">
+						<article class="article--mini">
+							<header class="article__header">
+								<h3 class="article__title">
+									<sup>&#x23;OurEcho <span class="hide-text">|</span></sup>
+									Walk for Wild Florida
+								</h3>
+							</header>
+							<div class="article__content">
+								
+									<img src="/cache/images/made/fddc8a5ccc6511a9/WalkforWild1_142_170_c1.jpg" alt="" class="article__feature-image">
+								
+
+								<div class="article__text">
+									<p>
+										I looked across the expanse of the St Mark&rsquo;s River, and realized I was stuck. A ferry boat was waiting to take me across the river so I could continue backpacking the Florida trail on the other bank. But that would mean that after hiking, rambling and hopping my way through 280 miles of the&hellip;
+									</p>
+									<a href="/news/walk-for-wild" class="button--orange__blank button__arrow--right  article__button float--right">Read More</a>
+								</div>
+							</div>
+						</article>
+					</div>
+				
+
+				<div class="span-6">
+					<article class="article--mini">
+						<header class="article__header">
+							<h3 class="article__title">
+								Learn About Products That Support EarthEcho
+							</h3>
+						</header>
+						<div class="article__content">
+							
+								
+									<img src="/cache/images/made/1bc30c091f98cdb4/_A4I0631_142_81_c1.jpg" alt="" class="article__feature-image">
+								
+							
+							<div class="article__text">
+								<p>Help support EarthEcho by purchasing these products. A portion of the proceeds from these items benefits EarthEcho.</p>
+								<a href="/about/products" class="button--orange__blank button__arrow--right article__button float--right">Find Out More</a>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+	
+		</div>
+
+		<footer class="page__footer">
+			<div class="wrap">
+				<div class="nav__footer">
+					<nav class="nav__footer--social"  aria-label="Social Links">
+						<button class="chevron-btn">
+							<span class="chevron-btn__text">Connect with EarthEcho</span>
+							<i class="chevron-btn__icon"></i>
+						</button>
+						<ul class="social-drawer">
+							<li class="nav-item--twitter"><a href="http://www.twitter.com/earthecho">on Twitter</a></li>
+							<li class="nav-item--facebook"><a href="http://www.facebook.com/earthecho">on Facebook</a></li>
+							<li class="nav-item--youtube"><a href="http://www.youtube.com/user/earthecho1">on YouTube</a></li>
+							<li class="nav-item--google"><a href="https://plus.google.com/101044922413529126045/posts">on GooglePlus</a></li>
+							<li class="nav-item--flickr"><a href="http://flickr.com/earthecho">on Flickr</a></li>
+						</ul>
+					</nav>
+					<div class="nav__footer--secondary">
+						<div class="nav__disclaimer">
+							<h6 class="footer__disclaimer__title">&copy; 2019 EarthEcho International. All Rights Reserved.</h6>
+							<p class="footer__disclaimer">
+								EarthEcho International and its works or products are not affiliated with nor in any way in support of The Cousteau Society or any of its works or trademarks.
+							</p>
+						</div>
+						<nav class="nav--content-info"  aria-label="Secondary Navigation">
+							<ul>
+								<li>
+									<a href="/terms-of-use">Terms of Use</a>
+								</li>
+								<li>
+									<a href="/privacy">Privacy Policy</a>
+								</li>
+								<li>
+									<a href="/news">News</a>
+								</li>
+								<li>
+									<a href="/about/careers">Careers</a>
+								</li>
+								<li>
+									<a href="/contact">Contact Us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	
+	<script src="/assets/compiled/javascripts/application.min.js?v=1546641380"></script>
+	</body>
+</html>
+
+
+
+	
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+		
+	
+		
+	
+
+	
+

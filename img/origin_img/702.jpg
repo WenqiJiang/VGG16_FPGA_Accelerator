@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>404错误_绿色软件站（Www.OneGreen.Net）</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="Content-Language" content="zh-cn">
+<style type="text/css">
+BODY { color:green;   FONT-FAMILY: "宋体","tahoma"; FONT-SIZE: 14px}
+TH { FONT-FAMILY: "宋体", "tahoma"; FONT-SIZE: 14px}
+TD { FONT-FAMILY: "宋体", "tahoma"; FONT-SIZE: 14px}
+<!--
+a {color:green;text-decoration:none}
+A:visited{color: green; text-decoration: none}
+a:hover {color: red;text-decoration:underline}
+-->
+</style> 
+
+<base target="_blank">
+</head>
+<body bgcolor="#63B263" topmargin="30">
+<br><br><br>
+<div align="center">
+	<table border="0" id="table2" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+		<tr>
+			<td align="center" height="60" style="padding-top: 10px" width="550">
+<p align="center"></p>
+<p align="center"><br>
+<font color="#800000"><b>404错误啦：</b></font><font color="#000080" style="line-height: 200%">非常抱歉，你要找的页面
+找不到...</font></p>
+
+<table border="1" width="500" id="table4" cellpadding="10" style="border-collapse: collapse" bordercolor="#63B263" cellspacing="0">
+	<tr>
+		<td width="100%">
+		<p align="center"><b><a href="http://www.onegreen.net/qq/Index.html">
+		<font color="#FF0000" size="4">QQ资料库</font></a></b></td>
+	</tr>
+</table>
+<table border="0" width="500" id="table5" cellspacing="0" cellpadding="0" height="40">
+	<tr>
+		<td align="left" style="padding-top: 10px; padding-bottom: 10px">
+<table><tr><FORM name=search action=http://www.onegreen.net/search.asp method=post><td>
+<Input type=radio CHECKED value=Soft name=ModuleName><a href=http://www.onegreen.net/nav_down.htm>软件</a>
+<Input type=radio value=Article name=ModuleName><a href=http://www.onegreen.net/nav_art.htm>文章</a> 
+<Input type=radio value=Photo name=ModuleName><a href=http://www.onegreen.net/nav_photo.htm>图片</a>
+<Input id=Keyword maxLength=30 value=关键字 name=Keyword>
+<Input id=Submit type=submit value=站内搜索 name=Submit>
+<Input id=Field type=hidden value=Title name=Field>
+</td></FORM></tr></table>
+		</td>
+		<td>　</td>
+	</tr>
+</table>
+<div align="center">
+	<table border="0" width="500" id="table3" bgcolor="#FFFFFF" bordercolorlight="#63B263" bordercolordark="#63B263" cellpadding="5" style="border-collapse: collapse" bordercolor="#63B263">
+		<tr>
+			<td align="center">
+<table border="1" width="500" id="table8" cellpadding="8" style="border-collapse: collapse" bordercolor="#63B263" cellspacing="0">
+	<tr>
+		<td align="center" width="33%"><a href="http://www.ps123.net/"><font size="4"><b>Ps123素材网</b></font></a></td>
+		<td align="center" width="33%"><a href="http://www.onegreen.org/"><font size="4"><b>手机软件站</b></font></a></td>
+		<td align="center" width="33%"><a href="http://game.onegreen.net/"><font size="4"><b>棋谱收藏站</b></font></a></td>
+	</tr>
+	</table>
+			</td>
+		</tr>
+		</table>
+	<table border="0" width="100%" id="table7" cellspacing="0" cellpadding="0" height="10">
+		<tr>
+			<td>　</td>
+		</tr>
+	</table>
+	<table border="1" width="500" id="table6" bgcolor="#FFFFFF" cellspacing="0" bordercolorlight="#63B263" bordercolordark="#63B263" cellpadding="8" style="border-collapse: collapse" bordercolor="#63B263">
+		<tr>
+			<td align="center" width="33%">
+			<a href="http://www.onegreen.net/screen/Index.html">屏保主题</a></td>
+			<td align="center" width="33%">
+			<a href="http://www.onegreen.net/sucai/Index.html">模板素材</a></td>
+			<td align="center" width="33%">
+			<font color="#FF0000">
+			<a href="http://www.onegreen.net/QQ/Index.html">ＱＱ大全</a></font></td>
+		</tr>
+				<tr>
+			<td align="center" width="33%">
+			<a href="http://www.ps123.net/vector/Index.html">矢量素材</a></td>
+			<td align="center" width="33%" bgcolor="#FFFFFF">
+			<a href="http://www.ps123.net/PSD/Index.html">PSD素材</a></td>
+			<td align="center" width="33%">
+			<a href="http://www.ps123.net/photoshop/List/Allfont_cn.html">字体下载</a></td>
+		</tr>
+
+		<tr>
+			<td align="center" bgcolor="#FFFFFF" width="33%">
+			<a href="http://www.onegreen.net/maps/map.htm">地图大全</a></td>
+			<td align="center" width="33%" bgcolor="#FFFFFF">
+			<a href="http://free.onegreen.net/life/online/index.asp">
+			免费算命</a></td>
+			<td align="center" width="33%" bgcolor="#FFFFFF">
+			<a href="http://www.onegreen.net/code/Index.html">源码中心</a></td>
+		</tr>
+		</table>
+	</font>
+
+	<br><br><br><br><br>
+	</div>
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>
