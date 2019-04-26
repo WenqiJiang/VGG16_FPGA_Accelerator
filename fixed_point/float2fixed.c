@@ -1,10 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 #define FIXED_LEN 16
-#define DATA_NUM 2
 
+// no problem: 2359296, 8
+// problem: 
+#define DATA_NUM 102760448
+
+#define MAIN
+// #define PRINT
 //#define DEBUG
 //#define SINGLE_SCAN
 
@@ -23,7 +29,6 @@ unsigned short str2fixed(char* input, int data_len) {
 			us_input[i] = 1;
 		else
 			return 0;
-		printf("%u ", us_input[i]);
 	}
 	
 	unsigned short output = 
@@ -62,10 +67,12 @@ void load_data(char const* fname, char* bin_char) {
     fclose(data_file);
 }
 
-
+#ifdef MAIN
 int main() {
-	char* fname = "bin_sample.txt";
-	char bin_char[DATA_NUM * FIXED_LEN];
+	clock_t start = clock();
+
+	char* fname = "../weights_bin/weights_13.txt";
+	char* bin_char = malloc(DATA_NUM * FIXED_LEN * sizeof(char));
 	unsigned short fixed_point[DATA_NUM]; 
 	
 	#ifdef DEBUG
@@ -80,18 +87,28 @@ int main() {
 			char substr[17];
 			strncpy(substr, &bin_char[i * FIXED_LEN], FIXED_LEN);
 			substr[16] = 0;
-			printf("number %d:\n", i);
+			
 			#ifdef DEBUG
 			for (int j = 0; j < FIXED_LEN; j++) {
 				printf("%c ", bin_char[i]);
 			}
 			printf("\n");
 			#endif
-			printf("%s\n", substr);
+
 			fixed_point[i] = str2fixed(&bin_char[i * FIXED_LEN], FIXED_LEN);
+
+			#ifdef PRINT
+			printf("number %d:\n", i);
+			printf("%s\n", substr);
 			printf("unsigned short: %u\n", fixed_point[i]);
+			#endif
 		}
+		
+	clock_t end = clock();
+	float seconds = (float)(end - start) / CLOCKS_PER_SEC;
+	printf("time consumed:\t%f", seconds);
 }
+#endif 
 
 #ifdef SINGLE_SCAN
 void load_data(char const* fname, char* bin_char, int numbers) {
