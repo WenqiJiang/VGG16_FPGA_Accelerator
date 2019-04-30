@@ -1,2 +1,5 @@
 fixed_point/weights_bin
 fixed_point/weights_bin.tar.gz
+fc_C_implementation/weights_txt/
+fc_C_implementation/weights_npy/
+
