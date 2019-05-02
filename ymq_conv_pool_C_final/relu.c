@@ -6,5 +6,7 @@ void relu_forward(float* out, float* x, int x_dim1, int x_dim2, int x_dim3, int 
         if (x[i] > 0){
             out[i] = x[i];
         }
+        else
+            out[i] = 0;
     }
 }

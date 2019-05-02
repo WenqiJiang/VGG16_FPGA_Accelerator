@@ -22,16 +22,16 @@ int batch, int height, int width, int channels, int num_of_filters, int filter_h
 int filter_width, int channels_f) // A is output
 {
 
-    int new_height = (int)(((height - filter_height + 2 * pad) / stride) + 1);
-    int new_width = (int)(((width - filter_width + 2 * pad) / stride) + 1);
+    int new_height = height;
+    int new_width = width;
     // float[] A = (float) malloc(sizeof(float) * batch * new_height * new_width * num_of_filters);
-    float* x_pad = (float*) malloc(sizeof(float) * batch * (height + 2 * pad) * (width + 2 * pad) * channels);
+    float* x_pad = (float*) calloc(batch * (height + 2 * pad) * (width + 2 * pad) * channels, sizeof(float));
 
     for (int bt = 0; bt < batch; bt++){
         for (int i = 0; i < height; i++){
             for (int j = 0; j < width; j++){
                 for (int cn = 0; cn < channels; cn++){
-                    x_pad[channels * width * height * bt + channels * width * (i + pad) + channels * (j + pad) + cn] =
+                    x_pad[channels * (width + 2 * pad) * (height + 2 * pad) * bt + channels * (width + 2 * pad) * (i + pad) + channels * (j + pad) + cn] =
                     x[channels * width * height * bt + channels * width * i + channels * j + cn];
                 }
             }
