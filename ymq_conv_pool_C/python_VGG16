@@ -1,0 +1,89 @@
+def conv_forward(x, w, b, pad, stride):
+    """
+    A Numpy implementation of 2-D image convolution.
+    By 'convolution', simple element-wise multiplication and summation will suffice.
+    The border mode is 'valid' - Your convolution only happens when your input and your filter fully overlap.
+    Another thing to remember is that in TensorFlow, 'padding' means border mode (VALID or SAME). For this practice,
+    'pad' means the number rows/columns of zeroes to to concatenate before/after the edge of input.
+    Inputs:
+    :param x: Input data. Should have size (batch, height, width, channels).
+    :param w: Filter. Should have size (num_of_filters, filter_height, filter_width, channels).
+    :param b: Bias term. Should have size (num_of_filters, ).
+    :param pad: Integer. The number of zeroes to pad along the height and width axis.
+    :param stride: Integer. The number of pixels to move between 2 neighboring receptive fields.
+    :return: A 4-D array. Should have size (batch, new_height, new_width, num_of_filters).
+    Note:
+    To calculate the output shape of your convolution, you need the following equations:
+    new_height = ((height - filter_height + 2 * pad) // stride) + 1
+    new_width = ((width - filter_width + 2 * pad) // stride) + 1
+    For reference, visit this website:
+    https://adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks-Part-2/
+    """
+    batch, height, width, channels = x.shape
+    num_of_filters, filter_height, filter_width, channels_f = w.shape
+    assert channels == channels_f
+    
+    new_height = int(np.floor((height - filter_height + 2 * pad) / stride) + 1)
+    new_width = int(np.floor((width - filter_width + 2 * pad) / stride) + 1)
+    A = np.zeros((batch, new_height, new_width, num_of_filters))
+    x_pad = np.zeros((batch, height + 2*pad, width+2*pad, channels))
+    
+    for bt in range(batch):
+        for i in range(height):
+            for j in range(width):
+                for cn in range(channels):
+                    x_pad[bt,i+pad,j+pad,cn] = x[bt,i,j,cn]
+                    
+    for bt in range(batch):
+        for ft in range(num_of_filters):
+            for i in range(new_height):
+                for j in range(new_width):
+                    A[bt,i,j,ft] = b[ft] + np.sum(w[ft,:,:,:] * 
+                                   x_pad[bt, i*stride: i*stride + filter_height,j * stride: j*stride + filter_width,:])
+    
+    return A   
+
+
+
+def relu_forward(x):
+    """
+    Computes the forward pass for a layer of rectified linear units (ReLUs).
+    :param x: Inputs, of any shape
+    :return: A tuple of:
+    - out: Output, of the same shape as x
+    - cache: x for back-propagation
+    """
+    out = np.zeros_like(x)
+    out[np.where(x > 0)] = x[np.where(x > 0)]
+
+
+    return out
+
+
+def max_pool_forward(x, pool_size, stride):
+    """
+    A Numpy implementation of 2-D image max pooling.
+    Inputs:
+    :params x: Input data. Should have size (batch, height, width, channels).
+    :params pool_size: Integer. The size of a window in which you will perform max operations.
+    :params stride: Integer. The number of pixels to move between 2 neighboring receptive fields.
+    :return :A 4-D array. Should have size (batch, new_height, new_width, num_of_filters).
+    """
+    
+    batch, height, width, channels = x.shape
+    
+    new_height = int(np.floor((height - pool_size) / stride) + 1)
+    new_width = int(np.floor((width - pool_size) / stride) + 1)
+    
+    A = np.min(x) * np.ones((batch, new_height, new_width, channels))
+    
+    for bt in range(batch):
+        for row in range(new_height):
+            for col in range(new_width):
+                for cn in range(channels):
+                    for i in range(pool_size):
+                        for j in range(pool_size):
+                            if (x[bt][row*stride+i][col*stride+j][cn] > A[bt][row][col][cn]):
+                                A[bt][row][col][cn] = x[bt][row*stride+i][col*stride+j][cn]
+                    
+    return A       
