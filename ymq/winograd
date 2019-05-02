@@ -1,0 +1,37 @@
+"""
+A: Compute m1 to m4 to get final (2, 1) dimension result
+cap_G: Compute g0 to g2
+g: one row of the filter
+B: Compute d0 to d3
+d: input row from image or intermediate output...
+Y = A'[(Gg)*(B'd)]
+"""
+import numpy as np
+def winograd(g, d):
+    [g0, g1, g2] = g
+    [d0, d1, d2, d3] = d
+    m1 = ((d0 - d2) * g0)[0]
+    m2 = ((d1 + d2) * (g0 + g1 + g2) / 2)[0]
+    m3 = ((d2 - d1) * (g0 - g1 + g2) / 2)[0]
+    m4 = ((d1 - d3) * g2)[0]
+
+    Y = [[m1 + m2 + m3], [m2 - m3 - m4]]
+    print(Y)
+    return Y
+
+def winograd2(g, d):
+    AT = np.array([[1, 1, 1, 0], [0, 1, -1, -1]])
+    BT = np.array([[1, 0, -1, 0], [0, 1, 1, 0], [0, -1, 1, 0], [0, 1, 0, -1]])
+    cap_G = np.array([[1, 0, 0], [0.5, 0.5, 0.5], [0.5, -0.5, 0.5], [0, 0, 1]])
+    Y = np.dot(AT, np.multiply(np.dot(cap_G, g), np.dot(BT, d)))
+    print(AT.shape, BT.shape, cap_G.shape, Y.shape)
+    print(Y)
+    return Y
+
+g = np.array([[5],[6],[7]])
+d = np.array([[1],[2],[3],[4]])
+winograd(g, d)
+winograd2(g, d)
+
+
+
