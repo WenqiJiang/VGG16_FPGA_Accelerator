@@ -37,11 +37,15 @@ def dec_to_bin(x, int_digit, decimal_digit, decimal_point=False):
             return add_zero_integer_complement + add_zero_dec
     else: # x < 0
         if decimal_point:
-            raise Exception("negative numbers doesn't support decimal point currently")
+            temp_result = add_zero_integer_complement + add_zero_dec
+            temp_result_reverse = "".join(str(0 if int(r) == 1 else 1) for r in temp_result) # radix-minus-one complement
+            result = add_1(temp_result_reverse)
+            
+            return result[0:int_digit + 1] + "." + result[int_digit + 1:]
         else:
             temp_result = add_zero_integer_complement + add_zero_dec
             temp_result_reverse = "".join(str(0 if int(r) == 1 else 1) for r in temp_result) # radix-minus-one complement
-            print("reverse: ", temp_result_reverse)
+#             print("reverse: ", temp_result_reverse)
             result = add_1(temp_result_reverse)
             return result
 
