@@ -1,0 +1,1 @@
+void load_data(char const* fname, float* array, int length);

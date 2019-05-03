@@ -1,0 +1,1 @@
+void relu_forward(float* out, float* x, int x_dim1, int x_dim2, int x_dim3, int x_dim4);
