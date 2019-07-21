@@ -1,13 +1,16 @@
 ///////////////////////////////////////
 //
-// gcc hps.c -o hps
+// Run: make
 //
 // based on a design from
 // https://github.com/robertofem/CycloneVSoC-examples/blob/master/Linux-applications/DMA_transfer_FPGA_DMAC
 // & https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/HPS_peripherials/FPGA_addr_index.html
 //
-// Author: Ke Xu
-// Note: Remember deleting all parameters related with bias_shift
+// Author: Ke Xu 
+// Second Author: Wenqi Jiang (Function of FC layer)
+// Date: 2019/07/21 at Columbia University
+// Email: kx2141@columbia.edu
+//
 ///////////////////////////////////////
 #include <stdio.h>
 #include <string.h>
@@ -160,12 +163,10 @@ int main(void)
     retrieve(conv_output, WIDTH+2, DEPTH, OUTPUT_SDRAM);
     float* conv = (float*) malloc(sizeof(float) * WIDTH * WIDTH * DEPTH);
     fixed_to_dec(conv_output, WIDTH*WIDTH*DEPTH, conv, 5);
-    temp = 0;
     for (int i = 250; i < DEPTH*WIDTH*7; i += DEPTH) {
         //temp2 = *(dram_ptr + OUTPUT_SDRAM/2 + 64*WIDTH + i);
         //printf("Data at %d is: %d\n",i/64, temp2);
         printf("Data at %d is: %f\n",i/DEPTH, conv[i]);
-        //temp++;
     }
     free(conv);
 
@@ -323,36 +324,7 @@ void conv_relu(int input_channel, int output_channel, int width, int conv_num,
                     {   
                         load_bias(output_addr_sdram + 64 * width * 2 + out * width * width * 64 * 2 + 64 * 2 + 64 * point * 2, weight_bias);
                         partial_enable = 1;
-                    }
-                /*    if (output_channel == 256 && point == 58 && in == 0 && out == 0) {
-                        unsigned short a[1], b[1];
-                        float c[1], d[1];
-                        FILE *fa=fopen("w.txt", "w");
-                        for (int i = 0; i < 64*9; i++) {
-                            a[0] = *(dram_ptr + 0x08000000/2 + i*64);
-                            fixed_to_dec(a,1,c,14);
-                            fprintf(fa, "%f\n", c[0]);
-                        }
-                        fclose(fa);
-
-                        FILE *fb=fopen("in.txt", "w");
-                        for (int i = 0; i < 64*9; i++) {
-                            b[0] = *(dram_ptr + 0x08020000/2 + i);
-                            fixed_to_dec(b,1,d,1);
-                            fprintf(fb, "%f\n", d[0]);
-                        }
-                        fclose(fb);
-                    
-                        for (int i = 0; i < 64*9; i ++) {
-                            a[0] = *(dram_ptr + 0x08000000/2 + 1 + i*64);
-                            fixed_to_dec(a,1,c,14);
-                            b[0] = *(dram_ptr + 0x08020000/2 + i);
-                            fixed_to_dec(b,1,d,1);
-                            printf("%d  w:%f  input:%f\n",i, c[0], d[0]);
-                        }
-                        printf("=========\n");
-                    }
-                */  
+                    }  
                     if (padding != in)
                     {
                         // Address explaination: base address + address shift for 0-padding + each point position
@@ -454,8 +426,8 @@ void conv_pool(int input_channel, int output_channel, int width, int conv_num,
                     {
                         // Address explaination: base address + first 0-padding row + former 64-channel data shift + shift a row each time
                         // Output: Case that program finishs with output, load width length cols result with padding 0 at both sides of result
-                        output_back(OUTPUT_SRAM_DMA_READ, output_addr_sdram + 64 * width_pool * 2 + out * width_pool * width_pool * 64 * 2 + point / 2 / width * 64 * width_pool * 2, 64 * width_pool);
-                        //point+=2;
+                        output_back(OUTPUT_SRAM_DMA_READ, output_addr_sdram + 64 * width_pool * 2 + out * width_pool * width_pool * 64 * 2
+                                                          + point / 2 / width * 64 * width_pool * 2, 64 * width_pool);
                         point += width;
                         continue;
                     }
@@ -495,12 +467,8 @@ int load_weight(int weight_addr, int data_size)
         *(DMA_status_ptr + 2) = DMA_WRITE_S2P;
         *(DMA_status_ptr + 3) = 2 * 64;
         *(DMA_status_ptr + 6) = 0b10001010;
-        while ((*(DMA_status_ptr)&0x010) == 0)
-        {
-            WAIT;
-        }
+        while ((*(DMA_status_ptr)&0x010) == 0) {WAIT;}
     }
-    //printf("Finish transfer from SDRAM into Weight On-chip Memory\n");
     return weight_bias;
 }
 
@@ -527,10 +495,7 @@ void load_input(int send_input_addr, int addr_shift, int data_size)
     // set bit 7 to stop on byte-count
     // Start DMA transfer
     *(DMA_status_ptr + 6) = 0b10001010;
-    while ((*(DMA_status_ptr)&0x010) == 0)
-    {
-        WAIT;
-    }
+    while ((*(DMA_status_ptr)&0x010) == 0) {WAIT;}
 }
 
 /* ----------------------------------*/
@@ -600,29 +565,6 @@ void sdram(int addr_shift, int num, unsigned short *value)
     gettimeofday(&t2, NULL);
     elapsedTime = (t2.tv_sec - t1.tv_sec);
     printf("Finishing transfer data to SDRAM within T=%.0f Sec \n", elapsedTime);
-}
-
-/* ----------------------------------*/
-// Function: 
-void retrieve_adjust(unsigned short *result, int width, int output_channel, int output_sdram_addr)
-{
-    int count = 0;
-    for (int out = 0; out < output_channel / 64; out++)
-    {
-        for (int j = 0; j < 64; j++)
-        {
-            for (int i = width + 1; i < width * (width - 1); i++)
-            {
-                if (i % width == width - 2)
-                {
-                    i++;
-                    continue;
-                }
-                result[count] = *(dram_ptr + output_sdram_addr / 2 + out * width * width * 64 + i * 64 + j);
-                count++;
-            }
-        }
-    }
 }
 
 /* ----------------------------------*/
@@ -737,9 +679,3 @@ void fixed_to_dec(unsigned short *data, int data_num, float *output, int point)
         }
     }
 }
-/* 
-for (int i = 0; i < 56*9; i++){
-        temp2 = *(dram_ptr + (WEIGHT_SDRAM+WEIGHT_LAYER4)/2 + i*64);
-        printf("%d weight: %d \n", i, temp2);
-}
-*/
