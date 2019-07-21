@@ -158,17 +158,16 @@ int main(void)
 
     unsigned short* conv_output = (unsigned short*) malloc(sizeof(unsigned short) * WIDTH * WIDTH * DEPTH);
     retrieve(conv_output, WIDTH+2, DEPTH, OUTPUT_SDRAM);
-    float* fc1 = (float*) malloc(sizeof(float) * WIDTH * WIDTH * DEPTH);
-    fixed_to_dec(conv_output, WIDTH*WIDTH*DEPTH, fc1, 5);
-    free(conv_output);
+    float* conv = (float*) malloc(sizeof(float) * WIDTH * WIDTH * DEPTH);
+    fixed_to_dec(conv_output, WIDTH*WIDTH*DEPTH, conv, 5);
     temp = 0;
     for (int i = 250; i < DEPTH*WIDTH*7; i += DEPTH) {
         //temp2 = *(dram_ptr + OUTPUT_SDRAM/2 + 64*WIDTH + i);
         //printf("Data at %d is: %d\n",i/64, temp2);
-        printf("Data at %d is: %f\n",i/DEPTH, fc1[i]);
+        printf("Data at %d is: %f\n",i/DEPTH, conv[i]);
         //temp++;
     }
-    free(fc1);
+    free(conv);
 
     gettimeofday(&part2, NULL);
     parttime = (part2.tv_sec - part1.tv_sec);
@@ -178,7 +177,7 @@ int main(void)
     /* ----------------------------------*/
     /* ----------------------------------*/
     // FC layer Part
-/*    gettimeofday(&part1, NULL);
+    gettimeofday(&part1, NULL);
     printf("FC layer\n");
     float* fc1 = (float*) malloc(sizeof(float) * 7 * 7 * 512);
     fixed_to_dec(conv_output, 7*7*512, fc1, 5);
@@ -190,13 +189,16 @@ int main(void)
     float* fc1_bias = (float*) malloc(sizeof(float) * FC1_DIM2);
     float* fc1_feature_map = (float*) malloc(sizeof(float) * FC1_DIM2);
     load_data("filter/fc1_kernel.txt", fc1_kernel, FC1_DIM1 * FC1_DIM2);
+    load_data("filter/fc1_bias.txt", fc1_bias, FC1_DIM2);
     gettimeofday(&t2, NULL);
     elapsedTime = t2.tv_sec - t1.tv_sec;
-    printf("Fc1 load weight: %.0f\n", elapsedTime);
+    printf("Fc1 load weight&bias: %.2f\n", elapsedTime/60);
 
-    load_data("filter/fc1_bias.txt", fc1_bias, FC1_DIM2);
     fc(fc1, fc1_bias, fc1_kernel, fc1_feature_map,
         FC1_DIM2, FC1_DIM1, 1);
+    gettimeofday(&t2, NULL);
+    elapsedTime = t2.tv_sec - t1.tv_sec;
+    printf("Fc1 calculation: %.2f\n", elapsedTime/60);
     free(fc1);
     free(fc1_kernel);
     free(fc1_bias);
@@ -208,26 +210,35 @@ int main(void)
     float* fc2_bias = (float*) malloc(sizeof(float) * FC2_DIM2);
     float* fc2_feature_map = (float*) malloc(sizeof(float) * FC2_DIM2);
     load_data("filter/fc2_kernel.txt", fc2_kernel, FC2_DIM1 * FC2_DIM2);
+    load_data("filter/fc2_bias.txt", fc2_bias, FC2_DIM2);
     gettimeofday(&t2, NULL);
     elapsedTime = t2.tv_sec - t1.tv_sec;
-    printf("Fc2 load weight: %.0f\n", elapsedTime);
-
-    load_data("filter/fc2_bias.txt", fc2_bias, FC2_DIM2);
+    printf("Fc2 load weight&bias: %.0f\n", elapsedTime);
     fc(fc1_feature_map, fc2_bias, fc2_kernel, fc2_feature_map,
         FC2_DIM2, FC2_DIM1, 1);
+    gettimeofday(&t2, NULL);
+    elapsedTime = t2.tv_sec - t1.tv_sec;
+    printf("Fc2 calculation: %.0f\n", elapsedTime);
     free(fc1_feature_map);
     free(fc2_kernel);
     free(fc2_bias);
     printf("FC Layer2 end\n");
 
+    gettimeofday(&t1, NULL);
     printf("FC Layer3 start\n");
     float* fc3_kernel = (float*) malloc(sizeof(float) * FC3_DIM1 * FC3_DIM2);
     float* fc3_bias = (float*) malloc(sizeof(float) * FC3_DIM2);
     float* output_feature_map = (float*) malloc(sizeof(float) * FC_OUTPUT_SIZE);
     load_data("filter/predictions_kernel.txt", fc3_kernel, FC3_DIM1 * FC3_DIM2);
     load_data("filter/predictions_bias.txt", fc3_bias, FC3_DIM2);
+    gettimeofday(&t2, NULL);
+    elapsedTime = t2.tv_sec - t1.tv_sec;
+    printf("Fc3 load weight&bias: %.0f\n", elapsedTime);
     fc(fc2_feature_map, fc3_bias, fc3_kernel, output_feature_map,
         FC3_DIM2, FC3_DIM1, 1);
+    gettimeofday(&t2, NULL);
+    elapsedTime = t2.tv_sec - t1.tv_sec;
+    printf("Fc3 calculation: %.0f\n", elapsedTime);
     free(fc2_feature_map);
     free(fc3_kernel);
     free(fc3_bias);
@@ -242,7 +253,7 @@ int main(void)
     gettimeofday(&part2, NULL);
     parttime = (part2.tv_sec - part1.tv_sec);
     printf("\nCompleted FC layer in HPS part in T=%.0f Sec \n", parttime);
-*/
+
     gettimeofday(&end, NULL);
     alltime = (end.tv_sec - start.tv_sec);
     printf("\nCompleted Computation in T=%.2f Min \n", alltime/60);
