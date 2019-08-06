@@ -7,3 +7,122 @@ fc_C_implementation/weights_npy/
 main
 weights_bin
 weights_bin.tar.gz
+VGG_C_implementation/weights_txt/weights_txt.zip
+VGG_C_implementation/weights_txt/predictions_kernel.txt
+VGG_C_implementation/weights_txt/predictions_bias.txt
+VGG_C_implementation/weights_txt/num2fixed.pyc
+VGG_C_implementation/weights_txt/num2fixed.py
+VGG_C_implementation/weights_txt/new_persian_cat.txt
+VGG_C_implementation/weights_txt/fc2_kernel.txt
+VGG_C_implementation/weights_txt/fc2_bias.txt
+VGG_C_implementation/weights_txt/fc1_kernel.txt
+VGG_C_implementation/weights_txt/fc1_bias.txt
+VGG_C_implementation/weights_txt/block5_conv3_kernel.txt
+VGG_C_implementation/weights_txt/block5_conv3_bias.txt
+VGG_C_implementation/weights_txt/block5_conv2_kernel.txt
+VGG_C_implementation/weights_txt/block5_conv2_bias.txt
+VGG_C_implementation/weights_txt/block5_conv1_bias.txt
+VGG_C_implementation/weights_txt/block4_conv3_bias.txt
+VGG_C_implementation/weights_txt/block4_conv2_kernel.txt
+VGG_C_implementation/weights_txt/block4_conv1_kernel.txt
+VGG_C_implementation/weights_txt/block4_conv1_bias.txt
+VGG_C_implementation/weights_txt/block3_conv3_kernel.txt
+VGG_C_implementation/weights_txt/block3_conv3_bias.txt
+VGG_C_implementation/weights_txt/block4_conv2_bias.txt
+VGG_C_implementation/weights_txt/block4_conv3_kernel.txt
+fixed_point/block1_conv1_bias.txt
+fixed_point/convert.py
+fixed_point/num2fixed.pyc
+fixed_point/num2fixed.pyc
+VGG_C_implementation/._main.c
+VGG_C_implementation/._main.c
+VGG_C_implementation/.DS_Store
+fixed_point/load_fixed.h
+fixed_point/load_fixed.c
+VGG_C_implementation/conv_forward.c
+VGG_C_implementation/conv_forward.c
+VGG_C_implementation/conv_forward.c
+VGG_C_implementation/conv_forward.c
+VGG_C_implementation/conv_forward.h
+VGG_C_implementation/fc.c
+VGG_C_implementation/weights_txt/block2_conv2_kernel.txt
+VGG_C_implementation/weights_txt/block2_conv2_bias.txt
+VGG_C_implementation/weights_txt/block3_conv1_bias.txt
+VGG_C_implementation/weights_txt/block3_conv1_kernel.txt
+VGG_C_implementation/weights_txt/block2_conv1_kernel.txt
+VGG_C_implementation/weights_txt/block3_conv2_bias.txt
+VGG_C_implementation/weights_txt/block2_conv1_bias.txt
+VGG_C_implementation/weights_txt/.DS_Store
+VGG_C_implementation/weights_txt/block1_conv1_bias.txt
+VGG_C_implementation/weights_txt/block1_conv1_kernel.txt
+VGG_C_implementation/weights_txt/block1_conv1_kernel.txt
+fixed_point/load_fixed.c
+fixed_point/load_fixed.c
+VGG_C_implementation/conv_forward.c
+VGG_C_implementation/Makefile
+VGG_C_implementation/persian_cat.txt
+VGG_C_implementation/python_VGG16
+VGG_C_implementation/relu.c
+VGG_C_implementation/weights_txt/._.DS_Store
+VGG_C_implementation/weights_txt/._block1_conv2_kernel.txt
+VGG_C_implementation/weights_txt/._fc1_kernel.txt
+VGG_C_implementation/weights_txt/block1_conv2_bias.txt
+VGG_C_implementation/weights_txt/block1_conv2_kernel.txt
+VGG_C_implementation/weights_txt/block3_conv2_kernel.txt
+VGG_C_implementation/weights_txt/block5_conv1_kernel.txt
+VGG_H&S_implementation/Hardware/pts.sv
+VGG_H&S_implementation/Software/intermediate data/adjust.py
+VGG_H&S_implementation/Software/intermediate data/adjust_input.py
+VGG_H&S_implementation/Software/intermediate data/bin_block1_conv1_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block1_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block1_conv2_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block1_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block2_conv1_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block2_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block2_conv2_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block2_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block3_conv1_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block3_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block3_conv2_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block3_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block3_conv3_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block3_conv3_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block4_conv1_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block4_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block4_conv2_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block4_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block4_conv3_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block4_conv3_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block5_conv1_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block5_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block5_conv2_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block5_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block5_conv3_bias.txt
+VGG_H&S_implementation/Software/intermediate data/bin_block5_conv3_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/bin_persian_cat.txt
+VGG_H&S_implementation/Software/intermediate data/new_block1_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/new_block1_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/new_block2_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/new_block2_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/new_block3_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/new_block3_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/new_block3_conv3_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/new_block4_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/new_block4_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/new_block4_conv3_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/new_block5_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/new_block5_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/new_block5_conv3_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block1_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block1_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block2_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block2_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block3_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block3_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block3_conv3_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block4_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block4_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block4_conv3_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block5_conv1_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block5_conv2_kernel.txt
+VGG_H&S_implementation/Software/intermediate data/per_block5_conv3_kernel.txt
