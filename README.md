@@ -12,3 +12,5 @@ This project contains several folders and all of them played the important roles
 [VGG_H&S_implementation](https://github.com/WenqiJiang/VGG16_FPGA_Accelerator/tree/master/VGG_H%26S_implementation) is the `FINAL` project which has three version folders which all puts convolution parts on FPGA and FC layer on HPS part. In addition, functions for FC layer are used for reference in these folders.
 
 As for these three versions, the only different between [Version 1](https://github.com/WenqiJiang/VGG16_FPGA_Accelerator/tree/master/VGG_H%26S_implementation/Version1) and [Version 2](https://github.com/WenqiJiang/VGG16_FPGA_Accelerator/tree/master/VGG_H%26S_implementation/Version2) is the numbers of data loaded each time. And Version 3 is following with Version 2 while it loads all weight, bias and input data into SDRAM and all FC layer weight data on DDR3 at first. In this way, this board could focus on computation instead of wasting a huge amount of time loading data.
+
+This project will be updated in future.
